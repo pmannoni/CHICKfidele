@@ -1,0 +1,22 @@
+# Base conversion stack
+loguru==0.7.3
+pydantic==2.13.4
+pylatexenc==2.10
+pdf2image==1.17.0
+Pillow==12.2.0
+pytesseract==0.3.13
+
+# PDF parsers
+PyPDF2==3.0.1
+pypdf==6.1.1
+
+# Nougat compatibility pins
+transformers==4.38.2
+tokenizers==0.15.2
+albumentations==1.3.1
+pypdfium2==4.30.0
+
+# Nougat + resolver guards (important on Python 3.12)
+datasets==2.21.0
+pyarrow==24.0.0
+nougat-ocr==0.1.17
