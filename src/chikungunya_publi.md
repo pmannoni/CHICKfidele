@@ -106,63 +106,89 @@ Three control pathways were incorporated into Model (1) as control functions $u(
 | ② Human-to-mosquito transmission control | $u_2(t)$ | $\beta_{pv} \triangleq (1-u_2(t))\beta_{pv}$ |
 | ③ Mosquito population suppression | $u_3(t)$ | $N_v = (1-u_3(t))xN_p$ |
 
-The controlled system is:
+The controlled system is $\quad (2)$:
 
-$$\begin{cases}
-\frac{dS_{mj}}{dt} = -\frac{(1-u_1(t))\beta_{vp}IRR_{mj}S_{mj}I_v}{N_p} \\[6pt]
-\frac{dE_{mj}}{dt} = \frac{(1-u_1(t))\beta_{vp}IRR_{mj}S_{mj}I_v}{N_p} - q\omega'E_{mj} - (1-q)\omega E_{mj} \\[6pt]
-\frac{dI_{mj}}{dt} = (1-q)\omega E_{mj} - \gamma I_{mj} \\[6pt]
-\frac{dA_{mj}}{dt} = q\omega'E_{mj} - \gamma'A_{mj} \\[6pt]
-\frac{dR_{mj}}{dt} = \gamma I_{mj} + \gamma'A_{mj} \\[6pt]
-\frac{dS_{fj}}{dt} = -\frac{(1-u_1(t))\beta_{vp}IRR_{fj}S_{fj}I_v}{N_p} \\[6pt]
-\frac{dE_{fj}}{dt} = \frac{(1-u_1(t))\beta_{vp}IRR_{fj}S_{fj}I_v}{N_p} - q\omega'E_{fj} - (1-q)\omega E_{fj} \\[6pt]
-\frac{dI_{fj}}{dt} = (1-q)\omega E_{fj} - \gamma I_{fj} \\[6pt]
-\frac{dA_{fj}}{dt} = q\omega'E_{fj} - \gamma'A_{fj} \\[6pt]
-\frac{dR_{fj}}{dt} = \gamma I_{fj} + \gamma'A_{fj} \\[6pt]
-\frac{dS_a}{dt} = ac[(1-u_3(t))xN_p - nI_a] - \lambda S_a \\[6pt]
-\frac{dI_a}{dt} = acnI_a - \lambda I_a \\[6pt]
-\frac{dS_v}{dt} = \lambda S_a - \frac{(1-u_2(t))\beta_{pv}S_v\sum_{j=1}^{k}(I_{mj}+I_{fj}+A_{mj}+A_{fj})}{N_p} - dS_v \\[6pt]
-\frac{dE_v}{dt} = \frac{(1-u_2(t))\beta_{pv}S_v\sum_{j=1}^{k}(I_{mj}+I_{fj}+A_{mj}+A_{fj})}{N_p} - (d+\varpi)E_v \\[6pt]
-\frac{dI_v}{dt} = \lambda I_a + \varpi E_v - dI_v
-\end{cases} \tag{2}$$
+$$\frac{dS_{mj}}{dt} = -\frac{(1-u_1(t))\beta_{vp}IRR_{mj}S_{mj}I_v}{N_p}$$
 
-The objective functional to minimize is:
+$$\frac{dE_{mj}}{dt} = \frac{(1-u_1(t))\beta_{vp}IRR_{mj}S_{mj}I_v}{N_p} - q\omega'E_{mj} - (1-q)\omega E_{mj}$$
 
-$$G(u(t)) = \int_0^T \left[\sum_{j=1}^{k}(p_{mj}I_{mj} + p_{fj}I_{fj}) + \frac{p_{k+1}}{2}u_1^2(t) + \frac{p_{k+2}}{2}u_2^2(t) + \frac{p_{k+3}}{2}u_3^2(t)\right]dt \tag{3}$$
+$$\frac{dI_{mj}}{dt} = (1-q)\omega E_{mj} - \gamma I_{mj}$$
 
-The optimal control problem is:
+$$\frac{dA_{mj}}{dt} = q\omega'E_{mj} - \gamma'A_{mj}$$
 
-$$G(u^*) = \min_{\Theta} G(u(t)) \tag{4}$$
+$$\frac{dR_{mj}}{dt} = \gamma I_{mj} + \gamma'A_{mj}$$
 
-where $\Theta = \{u(t) \in L^3(0,T) \mid u_{min} \leq u_1(t), u_2(t), u_3(t) \leq u_{max}, t \in (0,T)\}$.
+$$\frac{dS_{fj}}{dt} = -\frac{(1-u_1(t))\beta_{vp}IRR_{fj}S_{fj}I_v}{N_p}$$
 
-The Lagrangian for the optimal problem is:
+$$\frac{dE_{fj}}{dt} = \frac{(1-u_1(t))\beta_{vp}IRR_{fj}S_{fj}I_v}{N_p} - q\omega'E_{fj} - (1-q)\omega E_{fj}$$
 
-$$\mathcal{L} = \sum_{j=1}^{k}(p_{mj}I_{mj} + p_{fj}I_{fj}) + \frac{p_{k+1}}{2}u_1^2(t) + \frac{p_{k+2}}{2}u_2^2(t) + \frac{p_{k+3}}{2}u_3^2(t) \tag{5}$$
+$$\frac{dI_{fj}}{dt} = (1-q)\omega E_{fj} - \gamma I_{fj}$$
 
-The Hamiltonian function $\mathcal{H}$ is defined as:
+$$\frac{dA_{fj}}{dt} = q\omega'E_{fj} - \gamma'A_{fj}$$
 
-$$\mathcal{H} = L + \sum_{i=1}^{10k+5} \eta_i f_i \tag{6}$$
+$$\frac{dR_{fj}}{dt} = \gamma I_{fj} + \gamma'A_{fj}$$
 
-**Theorem 1.** The adjoint variables $\eta_i$ $(i=1,\ldots,10k+5)$ satisfy:
+$$\frac{dS_a}{dt} = ac[(1-u_3(t))xN_p - nI_a] - \lambda S_a$$
 
-$$\begin{cases}
-\frac{d\eta_{10(j-1)+1}}{dt} = \eta_{10(j-1)+1}C_{1m} - \eta_{10(j-1)+2}C_{1m} \\[6pt]
-\frac{d\eta_{10(j-1)+2}}{dt} = \eta_{10(j-1)+2}[q\omega'+(1-q)\omega] - \eta_{10(j-1)+3}(1-q)\omega - \eta_{10(j-1)+4}q\omega' \\[6pt]
-\frac{d\eta_{10(j-1)+3}}{dt} = -p_{mj} + p\eta_{10(j-1)+3}\gamma - \eta_{10(j-1)+5}\gamma + \eta_{10k+3}C_2 - \eta_{10k+4}C_2 \\[6pt]
-\frac{d\eta_{10(j-1)+4}}{dt} = \eta_{10(j-1)+4}\gamma' - \eta_{10(j-1)+5}\gamma' + \eta_{10k+3}C_2 - \eta_{10k+4}C_2 \\[6pt]
-\frac{d\eta_{10(j-1)+5}}{dt} = 0 \\[6pt]
-\frac{d\eta_{10(j-1)+6}}{dt} = \eta_{10(j-1)+6}C_{1f} - \eta_{10(j-1)+7}C_{1f} \\[6pt]
-\frac{d\eta_{10(j-1)+7}}{dt} = \eta_{10(j-1)+7}[q\omega'+(1-q)\omega] - \eta_{10(j-1)+8}(1-q)\omega - \eta_{10(j-1)+9}q\omega' \\[6pt]
-\frac{d\eta_{10(j-1)+8}}{dt} = -p_{fj} + p\eta_{10(j-1)+8}\gamma - \eta_{10j}\gamma + \eta_{10k+3}C_2 - \eta_{10k+4}C_2 \\[6pt]
-\frac{d\eta_{10(j-1)+9}}{dt} = \eta_{10(j-1)+}\gamma' - \eta_{10j}\gamma' + \eta_{10k+3}C_2 - \eta_{10k+4}C_2 \\[6pt]
-\frac{d\eta_{10j}}{dt} = 0 \\[6pt]
-\frac{d\eta_{10k+1}}{dt} = \eta_{10k+1}\lambda - \eta_{10k+3}\lambda \\[6pt]
-\frac{d\eta_{10k+2}}{dt} = \eta_{10k+1}acn - \eta_{10k+2}(acn-\lambda) - \eta_{10k+5}\lambda \\[6pt]
-\frac{d\eta_{10k+3}}{dt} = \eta_{10k+3}[C_3+d] - \eta_{10k+4}C_3 \\[6pt]
-\frac{d\eta_{10k+4}}{dt} = \eta_{10k+4}(d+\varpi) - \eta_{10k+5}\varpi \\[6pt]
-\frac{d\eta_{10k+5}}{dt} = \sum_{j=1}^{k}\left[(\eta_{10(j-1)+1}-\eta_{10(j-1)+2})C_{4m} + (\eta_{10(j-1)+6}-\eta_{10(j-1)+7})C_{4f}\right] + \eta_{10k+5}d
-\end{cases} \tag{7}$$
+$$\frac{dI_a}{dt} = acnI_a - \lambda I_a$$
+
+$$\frac{dS_v}{dt} = \lambda S_a - \frac{(1-u_2(t))\beta_{pv}S_v\sum_{j=1}^{k}(I_{mj}+I_{fj}+A_{mj}+A_{fj})}{N_p} - dS_v$$
+
+$$\frac{dE_v}{dt} = \frac{(1-u_2(t))\beta_{pv}S_v\sum_{j=1}^{k}(I_{mj}+I_{fj}+A_{mj}+A_{fj})}{N_p} - (d+\varpi)E_v$$
+
+$$\frac{dI_v}{dt} = \lambda I_a + \varpi E_v - dI_v$$
+
+The objective functional to minimize is $(3)$:
+
+$$G\bigl(u(t)\bigr) = \int_0^T \left[\sum_{j=1}^{k}\bigl(p_{mj}I_{mj} + p_{fj}I_{fj}\bigr) + \frac{p_{k+1}}{2}u_1^2(t) + \frac{p_{k+2}}{2}u_2^2(t) + \frac{p_{k+3}}{2}u_3^2(t)\right]dt$$
+
+The optimal control problem is $(4)$:
+
+$$G(u^{\ast}) = \min_{\Theta}\, G\bigl(u(t)\bigr)$$
+
+where:
+
+$$\Theta = \left\{ u(t) \in L^3(0,T) \;|\; u_{min} \leq u_1(t),\ u_2(t),\ u_3(t) \leq u_{max},\ t \in (0,T) \right\}$$
+
+The Lagrangian for the optimal problem is $(5)$:
+
+$$\mathcal{L} = \sum_{j=1}^{k}\bigl(p_{mj}I_{mj} + p_{fj}I_{fj}\bigr) + \frac{p_{k+1}}{2}u_1^2(t) + \frac{p_{k+2}}{2}u_2^2(t) + \frac{p_{k+3}}{2}u_3^2(t)$$
+
+The Hamiltonian function $\mathcal{H}$ is defined as $(6)$:
+
+$$\mathcal{H} = \mathcal{L} + \sum_{i=1}^{10k+5} \eta_i f_i$$
+
+**Theorem 1.** The adjoint variables $\eta_i$ $(i=1,\ldots,10k+5)$ satisfy $\quad (7)$:
+
+$$\frac{d\eta_{10(j-1)+1}}{dt} = \eta_{10(j-1)+1}C_{1m} - \eta_{10(j-1)+2}C_{1m}$$
+
+$$\frac{d\eta_{10(j-1)+2}}{dt} = \eta_{10(j-1)+2}[q\omega'+(1-q)\omega] - \eta_{10(j-1)+3}(1-q)\omega - \eta_{10(j-1)+4}q\omega'$$
+
+$$\frac{d\eta_{10(j-1)+3}}{dt} = -p_{mj} + p\eta_{10(j-1)+3}\gamma - \eta_{10(j-1)+5}\gamma + \eta_{10k+3}C_2 - \eta_{10k+4}C_2$$
+
+$$\frac{d\eta_{10(j-1)+4}}{dt} = \eta_{10(j-1)+4}\gamma' - \eta_{10(j-1)+5}\gamma' + \eta_{10k+3}C_2 - \eta_{10k+4}C_2$$
+
+$$\frac{d\eta_{10(j-1)+5}}{dt} = 0$$
+
+$$\frac{d\eta_{10(j-1)+6}}{dt} = \eta_{10(j-1)+6}C_{1f} - \eta_{10(j-1)+7}C_{1f}$$
+
+$$\frac{d\eta_{10(j-1)+7}}{dt} = \eta_{10(j-1)+7}[q\omega'+(1-q)\omega] - \eta_{10(j-1)+8}(1-q)\omega - \eta_{10(j-1)+9}q\omega'$$
+
+$$\frac{d\eta_{10(j-1)+8}}{dt} = -p_{fj} + p\eta_{10(j-1)+8}\gamma - \eta_{10j}\gamma + \eta_{10k+3}C_2 - \eta_{10k+4}C_2$$
+
+$$\frac{d\eta_{10(j-1)+9}}{dt} = \eta_{10(j-1)+}\gamma' - \eta_{10j}\gamma' + \eta_{10k+3}C_2 - \eta_{10k+4}C_2$$
+
+$$\frac{d\eta_{10j}}{dt} = 0$$
+
+$$\frac{d\eta_{10k+1}}{dt} = \eta_{10k+1}\lambda - \eta_{10k+3}\lambda$$
+
+$$\frac{d\eta_{10k+2}}{dt} = \eta_{10k+1}acn - \eta_{10k+2}(acn-\lambda) - \eta_{10k+5}\lambda$$
+
+$$\frac{d\eta_{10k+3}}{dt} = \eta_{10k+3}[C_3+d] - \eta_{10k+4}C_3$$
+
+$$\frac{d\eta_{10k+4}}{dt} = \eta_{10k+4}(d+\varpi) - \eta_{10k+5}\varpi$$
+
+$$\frac{d\eta_{10k+5}}{dt} = \sum_{j=1}^{k}\left[(\eta_{10(j-1)+1}-\eta_{10(j-1)+2})C_{4m} + (\eta_{10(j-1)+6}-\eta_{10(j-1)+7})C_{4f}\right] + \eta_{10k+5}d$$
 
 with boundary conditions $\eta_i(T) = 0$, where:
 
@@ -172,13 +198,13 @@ $$C_2 = \frac{(1-u_2(t))\beta_{pv}S_v}{N_p}, \quad C_3 = \frac{(1-u_2(t))\beta_{
 
 $$C_{4m} = \frac{(1-u_1(t))\beta_{vp}IRR_{mj}S_{mj}}{N_p}, \quad C_{4f} = \frac{(1-u_1(t))\beta_{vp}IRR_{fj}S_{fj}}{N_p}$$
 
-The optimal control measures $u_1^*, u_2^*, u_3^*$ are given by:
+The optimal control measures $u_1^{\ast}, u_2^{\ast}, u_3^{\ast}$ are given by $(8)$:
 
-$$\begin{cases}
-u_1^*(t) = \max\left\{\min\left\{u_{min}, \frac{\sum_{j=1}^{k}\left\{[\eta_{10(j-1)+2}-\eta_{10(j-1)+1}]\frac{\beta_{vp}IRR_{mj}S_{mj}I_v}{N_p} + [\eta_{10(j-1)+7}-\eta_{10(j-1)+6}]\frac{\beta_{vp}IRR_{fj}S_{fj}I_v}{N_p}\right\}}{p_{k+1}}\right\}, u_{max}\right\} \\[10pt]
-u_2^*(t) = \max\left\{\min\left\{u_{min}, \frac{(\eta_{10k+4}-\eta_{10k+3})\frac{\beta_{pv}S_v\sum_{j=1}^{k}(I_{mj}+I_{fj}+A_{mj}+A_{fj})}{N_p}}{p_{k+1}}\right\}, u_{max}\right\} \\[10pt]
-u_3^*(t) = \max\left\{\min\left\{u_{min}, \frac{\eta_{10k+1}acxN_p}{p_{k+2}}\right\}, u_{max}\right\}
-\end{cases} \tag{8}$$
+$$u_1^{\ast}(t) = \max\left(\min\left(u_{min},\; \frac{\displaystyle\sum_{j=1}^{k}\left[(\eta_{10(j-1)+2}-\eta_{10(j-1)+1})\frac{\beta_{vp}IRR_{mj}S_{mj}I_v}{N_p} + (\eta_{10(j-1)+7}-\eta_{10(j-1)+6})\frac{\beta_{vp}IRR_{fj}S_{fj}I_v}{N_p}\right]}{p_{k+1}}\right),\; u_{max}\right)$$
+
+$$u_2^{\ast}(t) = \max\left(\min\left(u_{min},\; \frac{\displaystyle(\eta_{10k+4}-\eta_{10k+3})\,\frac{\beta_{pv}S_v\sum_{j=1}^{k}(I_{mj}+I_{fj}+A_{mj}+A_{fj})}{N_p}}{p_{k+1}}\right),\; u_{max}\right)$$
+
+$$u_3^{\ast}(t) = \max\left(\min\left(u_{min},\; \frac{\eta_{10k+1}\,a\,c\,x\,N_p}{p_{k+2}}\right),\; u_{max}\right)$$
 
 ---
 
@@ -275,25 +301,37 @@ Seasonal effect function:
 
 $$c \triangleq c(t) = \cos\left(\frac{t-\tau}{T}\right)$$
 
-**Full model system:**
+**Full model system $\quad (1)$:**
 
-$$\begin{cases}
-\frac{dS_{mj}}{dt} = -\frac{\beta_{vp}IRR_{mj}S_{mj}I_v}{N_p} \\[6pt]
-\frac{dE_{mj}}{dt} = \frac{\beta_{vp}IRR_{mj}S_{mj}I_v}{N_p} - q\omega'E_{mj} - (1-q)\omega E_{mj} \\[6pt]
-\frac{dI_{mj}}{dt} = (1-q)\omega E_{mj} - \gamma I_{mj} \\[6pt]
-\frac{dA_{mj}}{dt} = q\omega'E_{mj} - \gamma'A_{mj} \\[6pt]
-\frac{dR_{mj}}{dt} = \gamma I_{mj} + \gamma'A_{mj} \\[6pt]
-\frac{dS_{fj}}{dt} = -\frac{\beta_{vp}IRR_{fj}S_{fj}I_v}{N_p} \\[6pt]
-\frac{dE_{fj}}{dt} = \frac{\beta_{vp}IRR_{fj}S_{fj}I_v}{N_p} - q\omega'E_{fj} - (1-q)\omega E_{fj} \\[6pt]
-\frac{dI_{fj}}{dt} = (1-q)\omega E_{fj} - \gamma I_{fj} \\[6pt]
-\frac{dA_{fj}}{dt} = q\omega'E_{fj} - \gamma'A_{fj} \\[6pt]
-\frac{dR_{fj}}{dt} = \gamma I_{fj} + \gamma'A_{fj} \\[6pt]
-\frac{dS_a}{dt} = ac(N_v - nI_a) - \lambda S_a \\[6pt]
-\frac{dI_a}{dt} = acnI_a - \lambda I_a \\[6pt]
-\frac{dS_v}{dt} = \lambda S_a - \frac{\beta_{pv}S_v\sum_{j=1}^{k}(I_{mj}+I_{fj}+A_{mj}+A_{fj})}{N_p} - dS_v \\[6pt]
-\frac{dE_v}{dt} = \frac{\beta_{pv}S_v\sum_{j=1}^{k}(I_{mj}+I_{fj}+A_{mj}+A_{fj})}{N_p} - (d+\varpi)E_v \\[6pt]
-\frac{dI_v}{dt} = \lambda I_a + \varpi E_v - dI_v
-\end{cases} \tag{1}$$
+$$\frac{dS_{mj}}{dt} = -\frac{\beta_{vp}IRR_{mj}S_{mj}I_v}{N_p}$$
+
+$$\frac{dE_{mj}}{dt} = \frac{\beta_{vp}IRR_{mj}S_{mj}I_v}{N_p} - q\omega'E_{mj} - (1-q)\omega E_{mj}$$
+
+$$\frac{dI_{mj}}{dt} = (1-q)\omega E_{mj} - \gamma I_{mj}$$
+
+$$\frac{dA_{mj}}{dt} = q\omega'E_{mj} - \gamma'A_{mj}$$
+
+$$\frac{dR_{mj}}{dt} = \gamma I_{mj} + \gamma'A_{mj}$$
+
+$$\frac{dS_{fj}}{dt} = -\frac{\beta_{vp}IRR_{fj}S_{fj}I_v}{N_p}$$
+
+$$\frac{dE_{fj}}{dt} = \frac{\beta_{vp}IRR_{fj}S_{fj}I_v}{N_p} - q\omega'E_{fj} - (1-q)\omega E_{fj}$$
+
+$$\frac{dI_{fj}}{dt} = (1-q)\omega E_{fj} - \gamma I_{fj}$$
+
+$$\frac{dA_{fj}}{dt} = q\omega'E_{fj} - \gamma'A_{fj}$$
+
+$$\frac{dR_{fj}}{dt} = \gamma I_{fj} + \gamma'A_{fj}$$
+
+$$\frac{dS_a}{dt} = ac(N_v - nI_a) - \lambda S_a$$
+
+$$\frac{dI_a}{dt} = acnI_a - \lambda I_a$$
+
+$$\frac{dS_v}{dt} = \lambda S_a - \frac{\beta_{pv}S_v\sum_{j=1}^{k}(I_{mj}+I_{fj}+A_{mj}+A_{fj})}{N_p} - dS_v$$
+
+$$\frac{dE_v}{dt} = \frac{\beta_{pv}S_v\sum_{j=1}^{k}(I_{mj}+I_{fj}+A_{mj}+A_{fj})}{N_p} - (d+\varpi)E_v$$
+
+$$\frac{dI_v}{dt} = \lambda I_a + \varpi E_v - dI_v$$
 
 ---
 
@@ -333,9 +371,9 @@ The marginal likelihood estimate from the particle filter:
 
 $$\hat{p}(y_{1:T}|\theta) = \prod_{t=1}^{T}\left(N^{-1}\sum_{i=1}^{N}w_t^{(i)}\right)$$
 
-The acceptance probability for candidate $\theta^*$:
+The acceptance probability for candidate $\theta^{\ast}$:
 
-$$\alpha = \min\left\{1, \frac{\hat{p}(y_{1:T}|\theta^*)p(\theta^*)}{\hat{p}(y_{1:T}|\theta^{k-1})p(\theta^{k-1})} \cdot \frac{q(\theta^{(k-1)}|\theta^*)}{q(\theta^*|\theta^{(k-1)})}\right\}$$
+$$\alpha = \min\left(1,\ \frac{\hat{p}(y_{1:T}|\theta^{\ast})p(\theta^{\ast})}{\hat{p}(y_{1:T}|\theta^{k-1})p(\theta^{k-1})} \cdot \frac{q(\theta^{(k-1)}|\theta^{\ast})}{q(\theta^{\ast}|\theta^{(k-1)})}\right)$$
 
 ---
 
@@ -345,7 +383,7 @@ The Hamiltonian function:
 
 $$\mathcal{H}(x,\lambda,u,t) = L(x(t),u(t),t) + \lambda^T(t) \times f(x(t),u(t),t)$$
 
-According to Pontryagin's Maximum Principle, the optimal control $u^*(t)$ satisfies:
+According to Pontryagin's Maximum Principle, the optimal control $u^{\ast}(t)$ satisfies:
 
 $$\frac{\partial\mathcal{H}}{\partial u} = 0$$
 
