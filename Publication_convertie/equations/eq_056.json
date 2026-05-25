@@ -1,0 +1,20 @@
+{
+  "id": "eq_056",
+  "latex": "𝑎 Per capita birth rate of",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 21,
+  "context": "human s total number  1 - 5-15 Fitting 𝑎 Per capita birth rate of mosquitoes  Day-1 0.145  0.02-0.27 Ref. (24-25)",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

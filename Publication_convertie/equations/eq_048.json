@@ -1,0 +1,20 @@
+{
+  "id": "eq_048",
+  "latex": "𝜛, they",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 18,
+  "context": "humans, entering the expo sed class. After an average extrinsic incubation period of 1 𝜛, they 580 transition to the infectious class, capable of transmitting the virus.  581",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

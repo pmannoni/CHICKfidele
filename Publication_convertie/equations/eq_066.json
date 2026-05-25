@@ -1,0 +1,20 @@
+{
+  "id": "eq_066",
+  "latex": "𝑝̂(𝑦1:𝑇|𝜃)=∏(𝑁−1∑𝑤𝑡(𝑖)𝑁\n𝑖=1)𝑇\n𝑡=1.",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 23,
+  "context": "unbiased estimate of the marginal likelihood:  651 𝑝̂(𝑦1:𝑇|𝜃)=∏(𝑁−1∑𝑤𝑡(𝑖)𝑁 𝑖=1)𝑇",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

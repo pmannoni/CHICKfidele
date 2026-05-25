@@ -1,0 +1,20 @@
+{
+  "id": "eq_010",
+  "latex": "𝑉(𝐸0)=(𝑉106𝑘×2\n02×6𝑘𝑉2),",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 5,
+  "context": "and 170 𝑉(𝐸0)=(𝑉106𝑘×2 02×6𝑘𝑉2), 171",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "eq_065",
+  "latex": "𝑝(𝜃|𝑦1:𝑇)∝𝑝(𝑦1:𝑇|𝜃)𝑝(𝜃).",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 22,
+  "context": "likelihood function  𝑝(𝑦1:𝑇|𝜃) and the prior distribution  𝑝(𝜃): 637 𝑝(𝜃|𝑦1:𝑇)∝𝑝(𝑦1:𝑇|𝜃)𝑝(𝜃). 638 Within this framework, the goodness -of-fit of parameters is define d by their probability density 639",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

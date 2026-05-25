@@ -1,0 +1,20 @@
+{
+  "id": "eq_037",
+  "latex": "𝑢1=0.7086 .",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 11,
+  "context": "reached its lowest influence level ( 𝑢1=0.2) during September 1 7, with an average intensity of 318 𝑢1=0.7086 . 319 320",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

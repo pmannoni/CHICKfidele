@@ -1,0 +1,20 @@
+{
+  "id": "eq_004",
+  "latex": "𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑘𝑆𝑚𝑘𝐼𝑣\n𝑁𝑝",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 5,
+  "context": "⋮ 𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑘𝑆𝑚𝑘𝐼𝑣 𝑁𝑝",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

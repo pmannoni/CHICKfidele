@@ -1,0 +1,20 @@
+{
+  "id": "eq_009",
+  "latex": "𝐹(𝐸0)=(06𝑘×6𝑘𝐹1\n𝐹202×2),",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 5,
+  "context": "The Jacobian matrice s of ℱ and 𝒱 at the DFE 𝐸0 are 168 𝐹(𝐸0)=(06𝑘×6𝑘𝐹1 𝐹202×2), 169",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

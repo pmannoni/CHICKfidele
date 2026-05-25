@@ -1,0 +1,20 @@
+{
+  "id": "eq_036",
+  "latex": "𝜕𝐻\n𝜕𝑢1=0,\n𝜕𝐻\n𝜕𝑢2=0,\n𝜕𝐻\n𝜕𝑢3=0.",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 11,
+  "context": "the desired problem ( 8), we utilize d the following equations:  293 𝜕𝐻 𝜕𝑢1=0, 294",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

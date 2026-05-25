@@ -1,0 +1,20 @@
+{
+  "id": "eq_020",
+  "latex": "① Mosquito -to-human transmission control  𝑢1(𝑡) 𝛽𝑣𝑝≜(1−𝑢1(𝑡))𝛽𝑣𝑝\n② Human -to-mosquito transmission control  𝑢2(𝑡) 𝛽𝑝𝑣≜(1−𝑢2(𝑡))𝛽𝑝𝑣\n③ Mosquito population suppression  𝑢3(𝑡) 𝑁𝑣=(1−𝑢3(𝑡))𝑥𝑁𝑝",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 8,
+  "context": "8 / 35 ① Mosquito -to-human transmission control  𝑢1(𝑡) 𝛽𝑣𝑝≜(1−𝑢1(𝑡))𝛽𝑣𝑝 ② Human -to-mosquito transmission control  𝑢2(𝑡) 𝛽𝑝𝑣≜(1−𝑢2(𝑡))𝛽𝑝𝑣",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

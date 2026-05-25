@@ -1,0 +1,20 @@
+{
+  "id": "eq_069",
+  "latex": "variables  𝑥(𝑡) and costate variables  𝜆(𝑡), yielding  𝑢∗=𝑢∗(𝑥,𝜆) (43-44).",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 24,
+  "context": "an explicit expression for the optimal control exists and can be derived as a function of the state 696 variables  𝑥(𝑡) and costate variables  𝜆(𝑡), yielding  𝑢∗=𝑢∗(𝑥,𝜆) (43-44). 697 Solving the aforementioned optimal co",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

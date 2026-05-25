@@ -1,0 +1,20 @@
+{
+  "id": "eq_067",
+  "latex": "𝛼=𝑚𝑖𝑛{1,𝑝̂(𝑦1:𝑇|𝜃∗)𝑝(𝜃∗)\n𝑝̂(𝑦1:𝑇|𝜃𝑘−1)𝑝(𝜃𝑘−1),𝑞(𝜃(𝑘−1)|𝜃∗)\n𝑞(𝜃∗|𝜃(𝑘−1))}.",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 23,
+  "context": "update the parameters. The acceptance probability  𝛼 for the candidate point  𝜃∗ is determined by:  656 𝛼=𝑚𝑖𝑛{1,𝑝̂(𝑦1:𝑇|𝜃∗)𝑝(𝜃∗) 𝑝̂(𝑦1:𝑇|𝜃𝑘−1)𝑝(𝜃𝑘−1),𝑞(𝜃(𝑘−1)|𝜃∗)",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

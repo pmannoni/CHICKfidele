@@ -1,0 +1,20 @@
+{
+  "id": "eq_064",
+  "latex": "individuals  Day-1 1/4.5  1/7-0.5 Ref. (34-35)\n𝛾 Recovery rate of symptomatic\nindividuals  Day-1 1/7 - Ref. (36)\n𝛾′ Recovery rate of asymptomatic\nindividuals  Day-1 1/7 - Ref. (36)",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 22,
+  "context": "individuals to the asymptomatic individuals  Day-1 1/4.5  1/7-0.5 Ref. (34-35) 𝛾 Recovery rate of symptomatic",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

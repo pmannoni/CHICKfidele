@@ -1,0 +1,20 @@
+{
+  "id": "eq_023",
+  "latex": "where, t he constants  𝑝𝑚𝑗,𝑝𝑓𝑗,(𝑗=1,…,𝑘) are the weight factors for the symptomatic classes",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 8,
+  "context": "0,     (3) 243 where, t he constants  𝑝𝑚𝑗,𝑝𝑓𝑗,(𝑗=1,…,𝑘) are the weight factors for the symptomatic classes 244 𝐼𝑚𝑗,𝐼𝑓𝑗,(𝑗=1,…,𝑘), respectively , while 𝑝𝑘+1,𝑝𝑘+2, and 𝑝𝑘+3 are the corresponding cost factors.  245",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

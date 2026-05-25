@@ -1,0 +1,20 @@
+{
+  "id": "eq_071",
+  "latex": "𝑢𝑛𝑒𝑤=(1−𝜔)𝑢𝑜𝑙𝑑+𝜔𝑢𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑡𝑒𝑑 ,",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 25,
+  "context": "To ensure algorit hm stability and convergence, a relaxation update strategy is introduced:  709 𝑢𝑛𝑒𝑤=(1−𝜔)𝑢𝑜𝑙𝑑+𝜔𝑢𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑡𝑒𝑑 , 710 where  𝜔∈(0,1) is the relaxation (or damping) factor. The updated control variables are t",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

@@ -1,0 +1,200 @@
+2026-05-23 03:29:15.883 | INFO     | converter:__init__:17 - 🚀 PublicationConverter initialized
+2026-05-23 03:29:15.883 | INFO     | converter:convert:27 - 📄 Étape 1: Extraction du PDF...
+2026-05-23 03:29:15.883 | INFO     | pdf_processor:extract_with_nougat:28 - 🔍 Extraction Nougat: src/Publi2.pdf
+2026-05-23 03:29:15.893 | ERROR    | pdf_processor:extract_with_nougat:57 - Nougat exception: [WinError 2] Le fichier spécifié est introuvable
+2026-05-23 03:29:15.893 | WARNING  | pdf_processor:_fallback_extraction:64 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 03:29:17.526 | INFO     | converter:convert:34 - 📐 Étape 2: Extraction des équations...
+2026-05-23 03:29:17.558 | INFO     | pdf_processor:extract_equations:107 - 📊 0 équations extraites
+2026-05-23 03:29:17.558 | WARNING  | converter:convert:38 - ⚠️ Aucune équation trouvée
+2026-05-23 03:29:17.558 | INFO     | converter:convert:41 - ✅ Étape 3: Validation...
+2026-05-23 03:29:17.558 | INFO     | converter:convert:45 - 💾 Étape 4: Sauvegarde...
+2026-05-23 03:29:17.563 | INFO     | converter:_save_markdown:100 - 📋 Rapport sauvegardé: Publication_convertie\validation_report.md
+2026-05-23 03:29:17.563 | INFO     | converter:_save_metadata:123 - 📊 Métadonnées sauvegardées: Publication_convertie\metadata.json
+2026-05-23 03:29:17.563 | SUCCESS  | converter:convert:50 - ✅ Conversion complète: 0 équations extraites
+2026-05-23 04:06:07.715 | INFO     | converter:__init__:17 - 🚀 PublicationConverter initialized
+2026-05-23 04:06:07.715 | INFO     | converter:convert:27 - 📄 Étape 1: Extraction du PDF...
+2026-05-23 04:06:07.715 | INFO     | pdf_processor:extract_with_nougat:28 - 🔍 Extraction Nougat: src/Publi2.pdf
+2026-05-23 04:06:19.360 | ERROR    | pdf_processor:extract_with_nougat:43 - Nougat error: Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Scripts\nougat.exe\__main__.py", line 2, in <module>
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\predict.py", line 18, in <module>
+    from nougat import NougatModel
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\__init__.py", line 7, in <module>
+    from .model import NougatConfig, NougatModel
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\model.py", line 32, in <module>
+    from transformers.modeling_utils import PretrainedConfig, PreTrainedModel
+ImportError: cannot import name 'PretrainedConfig' from 'transformers.modeling_utils' (C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\transformers\modeling_utils.py). Did you mean: 'PreTrainedConfig'?
+
+2026-05-23 04:06:19.360 | WARNING  | pdf_processor:_fallback_extraction:64 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 04:06:20.964 | INFO     | converter:convert:34 - 📐 Étape 2: Extraction des équations...
+2026-05-23 04:06:20.964 | INFO     | pdf_processor:extract_equations:107 - 📊 0 équations extraites
+2026-05-23 04:06:20.964 | WARNING  | converter:convert:38 - ⚠️ Aucune équation trouvée
+2026-05-23 04:06:20.964 | INFO     | converter:convert:41 - ✅ Étape 3: Validation...
+2026-05-23 04:06:20.964 | INFO     | converter:convert:45 - 💾 Étape 4: Sauvegarde...
+2026-05-23 04:06:20.964 | INFO     | converter:_save_markdown:100 - 📋 Rapport sauvegardé: Publication_convertie\validation_report.md
+2026-05-23 04:06:20.964 | INFO     | converter:_save_metadata:123 - 📊 Métadonnées sauvegardées: Publication_convertie\metadata.json
+2026-05-23 04:06:20.964 | SUCCESS  | converter:convert:50 - ✅ Conversion complète: 0 équations extraites
+2026-05-23 04:08:05.052 | INFO     | converter:__init__:17 - 🚀 PublicationConverter initialized
+2026-05-23 04:08:05.054 | INFO     | converter:convert:27 - 📄 Étape 1: Extraction du PDF...
+2026-05-23 04:08:05.054 | INFO     | pdf_processor:extract_with_nougat:28 - 🔍 Extraction Nougat: src/Publi2.pdf
+2026-05-23 04:08:21.398 | ERROR    | pdf_processor:extract_with_nougat:43 - Nougat error: C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\transforms.py:108: UserWarning: Argument(s) 'always_apply' are not valid for transform BasicTransform
+  super().__init__(always_apply=always_apply, p=p)
+C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\transforms.py:42: UserWarning: Argument(s) 'always_apply' are not valid for transform BasicTransform
+  super().__init__(always_apply=always_apply, p=p)
+C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\transforms.py:76: UserWarning: Argument(s) 'always_apply' are not valid for transform BasicTransform
+  super().__init__(always_apply=always_apply, p=p)
+C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\transforms.py:123: UserWarning: Argument(s) 'cval' are not valid for transform Affine
+  alb.Affine(shear={"x": (0, 3), "y": (-3, 0)}, cval=(255, 255, 255), p=0.03),
+C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\albumentations\core\validation.py:114: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\transforms.py:124: UserWarning: Argument(s) 'value' are not valid for transform ShiftScaleRotate
+  alb.ShiftScaleRotate(
+C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\transforms.py:134: UserWarning: Argument(s) 'value' are not valid for transform GridDistortion
+  alb.GridDistortion(
+C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\transforms.py:143: UserWarning: Argument(s) 'always_apply, cval' are not valid for transform Affine
+  alb.Affine(
+C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\transforms.py:146: UserWarning: Argument(s) 'alpha_affine, value' are not valid for transform ElasticTransform
+  alb.ElasticTransform(
+Traceback (most recent call last):
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\albumentations\core\validation.py", line 67, in _validate_parameters
+    config = schema_cls(**schema_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\pydantic\main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InitSchema
+compression_type
+  Input should be 'jpeg' or 'webp' [type=literal_error, input_value=95, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Scripts\nougat.exe\__main__.py", line 2, in <module>
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\predict.py", line 18, in <module>
+    from nougat import NougatModel
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\__init__.py", line 7, in <module>
+    from .model import NougatConfig, NougatModel
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\model.py", line 34, in <module>
+    from nougat.transforms import train_transform, test_transform
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\nougat\transforms.py", line 158, in <module>
+    alb.ImageCompression(95, p=0.07),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\albumentations\core\validation.py", line 105, in custom_init
+    validated_kwargs = cls._validate_parameters(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pmanonni\PycharmProjects\CHICKfidele\.venv\Lib\site-packages\albumentations\core\validation.py", line 71, in _validate_parameters
+    raise ValueError(str(e)) from e
+ValueError: 1 validation error for InitSchema
+compression_type
+  Input should be 'jpeg' or 'webp' [type=literal_error, input_value=95, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+
+2026-05-23 04:08:21.402 | WARNING  | pdf_processor:_fallback_extraction:64 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 04:08:24.492 | INFO     | converter:convert:34 - 📐 Étape 2: Extraction des équations...
+2026-05-23 04:08:24.500 | INFO     | pdf_processor:extract_equations:107 - 📊 0 équations extraites
+2026-05-23 04:08:24.533 | WARNING  | converter:convert:38 - ⚠️ Aucune équation trouvée
+2026-05-23 04:08:24.567 | INFO     | converter:convert:41 - ✅ Étape 3: Validation...
+2026-05-23 04:08:24.603 | INFO     | converter:convert:45 - 💾 Étape 4: Sauvegarde...
+2026-05-23 04:08:24.641 | INFO     | converter:_save_markdown:100 - 📋 Rapport sauvegardé: Publication_convertie\validation_report.md
+2026-05-23 04:08:24.677 | INFO     | converter:_save_metadata:123 - 📊 Métadonnées sauvegardées: Publication_convertie\metadata.json
+2026-05-23 04:08:24.697 | SUCCESS  | converter:convert:50 - ✅ Conversion complète: 0 équations extraites
+2026-05-23 04:09:47.745 | INFO     | converter:__init__:17 - 🚀 PublicationConverter initialized
+2026-05-23 04:09:47.746 | INFO     | converter:convert:27 - 📄 Étape 1: Extraction du PDF...
+2026-05-23 04:09:47.746 | INFO     | pdf_processor:extract_with_nougat:28 - 🔍 Extraction Nougat: src/Publi2.pdf
+2026-05-23 04:13:48.710 | ERROR    | pdf_processor:extract_with_nougat:43 - Nougat error: None
+2026-05-23 04:13:48.710 | WARNING  | pdf_processor:_fallback_extraction:64 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 04:13:51.469 | INFO     | converter:convert:34 - 📐 Étape 2: Extraction des équations...
+2026-05-23 04:13:51.469 | INFO     | pdf_processor:extract_equations:107 - 📊 0 équations extraites
+2026-05-23 04:13:51.469 | WARNING  | converter:convert:38 - ⚠️ Aucune équation trouvée
+2026-05-23 04:13:51.469 | INFO     | converter:convert:41 - ✅ Étape 3: Validation...
+2026-05-23 04:13:51.469 | INFO     | converter:convert:45 - 💾 Étape 4: Sauvegarde...
+2026-05-23 04:13:51.484 | INFO     | converter:_save_markdown:100 - 📋 Rapport sauvegardé: Publication_convertie\validation_report.md
+2026-05-23 04:13:51.485 | INFO     | converter:_save_metadata:123 - 📊 Métadonnées sauvegardées: Publication_convertie\metadata.json
+2026-05-23 04:13:51.485 | SUCCESS  | converter:convert:50 - ✅ Conversion complète: 0 équations extraites
+2026-05-23 04:17:51.242 | INFO     | converter:__init__:17 - 🚀 PublicationConverter initialized
+2026-05-23 04:17:51.242 | INFO     | converter:convert:27 - 📄 Étape 1: Extraction du PDF...
+2026-05-23 04:17:51.242 | INFO     | pdf_processor:extract_with_nougat:28 - 🔍 Extraction Nougat: src/Publi2.pdf
+2026-05-23 04:22:51.521 | WARNING  | pdf_processor:extract_with_nougat:54 - Nougat timeout, fallback
+2026-05-23 04:22:51.594 | WARNING  | pdf_processor:_fallback_extraction:64 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 04:22:53.853 | INFO     | converter:convert:34 - 📐 Étape 2: Extraction des équations...
+2026-05-23 04:22:53.856 | INFO     | pdf_processor:extract_equations:107 - 📊 0 équations extraites
+2026-05-23 04:22:53.856 | WARNING  | converter:convert:38 - ⚠️ Aucune équation trouvée
+2026-05-23 04:22:53.856 | INFO     | converter:convert:41 - ✅ Étape 3: Validation...
+2026-05-23 04:22:53.856 | INFO     | converter:convert:45 - 💾 Étape 4: Sauvegarde...
+2026-05-23 04:22:53.865 | INFO     | converter:_save_markdown:100 - 📋 Rapport sauvegardé: Publication_convertie\validation_report.md
+2026-05-23 04:22:53.869 | INFO     | converter:_save_metadata:123 - 📊 Métadonnées sauvegardées: Publication_convertie\metadata.json
+2026-05-23 04:22:53.872 | SUCCESS  | converter:convert:50 - ✅ Conversion complète: 0 équations extraites
+2026-05-23 05:02:06.584 | INFO     | converter:__init__:17 - 🚀 PublicationConverter initialized
+2026-05-23 05:02:06.584 | INFO     | converter:convert:27 - 📄 Étape 1: Extraction du PDF...
+2026-05-23 05:02:06.584 | INFO     | pdf_processor:extract_with_nougat:28 - 🔍 Extraction Nougat: src/Publi2.pdf
+2026-05-23 05:07:06.789 | WARNING  | pdf_processor:extract_with_nougat:54 - Nougat timeout, fallback
+2026-05-23 05:07:06.801 | WARNING  | pdf_processor:_fallback_extraction:64 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 05:07:08.140 | INFO     | converter:convert:34 - 📐 Étape 2: Extraction des équations...
+2026-05-23 05:07:08.142 | INFO     | pdf_processor:extract_equations:107 - 📊 0 équations extraites
+2026-05-23 05:07:08.142 | WARNING  | converter:convert:38 - ⚠️ Aucune équation trouvée
+2026-05-23 05:07:08.143 | INFO     | converter:convert:41 - ✅ Étape 3: Validation...
+2026-05-23 05:07:08.143 | INFO     | converter:convert:45 - 💾 Étape 4: Sauvegarde...
+2026-05-23 05:07:08.149 | INFO     | converter:_save_markdown:100 - 📋 Rapport sauvegardé: Publication_convertie\validation_report.md
+2026-05-23 05:07:08.151 | INFO     | converter:_save_metadata:123 - 📊 Métadonnées sauvegardées: Publication_convertie\metadata.json
+2026-05-23 05:07:08.151 | SUCCESS  | converter:convert:50 - ✅ Conversion complète: 0 équations extraites
+2026-05-23 05:11:20.403 | INFO     | converter:__init__:17 - 🚀 PublicationConverter initialized
+2026-05-23 05:11:20.403 | INFO     | converter:convert:27 - 📄 Étape 1: Extraction du PDF...
+2026-05-23 05:11:20.403 | INFO     | pdf_processor:extract_with_nougat:28 - 🔍 Extraction Nougat: src/Publi2.pdf
+2026-05-23 05:16:20.548 | WARNING  | pdf_processor:extract_with_nougat:54 - Nougat timeout, fallback
+2026-05-23 05:16:20.565 | WARNING  | pdf_processor:_fallback_extraction:64 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 05:16:21.559 | INFO     | converter:convert:34 - 📐 Étape 2: Extraction des équations...
+2026-05-23 05:16:21.576 | INFO     | pdf_processor:extract_equations:231 - 📊 206 équations extraites
+2026-05-23 05:16:21.576 | INFO     | converter:convert:41 - ✅ Étape 3: Validation...
+2026-05-23 05:16:21.578 | WARNING  | pdf_processor:refine_equations:244 - ⚠️ eq_063 suspect: Braces mismatch: 1 open, 0 close
+2026-05-23 05:16:21.578 | WARNING  | pdf_processor:refine_equations:244 - ⚠️ eq_068 suspect: Braces mismatch: 4 open, 0 close
+2026-05-23 05:16:21.578 | WARNING  | pdf_processor:refine_equations:244 - ⚠️ eq_069 suspect: Closing brace before opening
+2026-05-23 05:16:21.578 | WARNING  | pdf_processor:refine_equations:244 - ⚠️ eq_070 suspect: Braces mismatch: 2 open, 4 close
+2026-05-23 05:16:21.578 | WARNING  | pdf_processor:refine_equations:244 - ⚠️ eq_141 suspect: Braces mismatch: 1 open, 0 close
+2026-05-23 05:16:21.578 | INFO     | converter:convert:45 - 💾 Étape 4: Sauvegarde...
+2026-05-23 05:16:21.991 | INFO     | converter:_save_markdown:100 - 📋 Rapport sauvegardé: Publication_convertie\validation_report.md
+2026-05-23 05:16:21.991 | INFO     | converter:_save_metadata:123 - 📊 Métadonnées sauvegardées: Publication_convertie\metadata.json
+2026-05-23 05:16:21.991 | SUCCESS  | converter:convert:50 - ✅ Conversion complète: 206 équations extraites
+2026-05-23 05:17:32.587 | WARNING  | pdf_processor:_fallback_extraction:64 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 05:17:33.659 | INFO     | pdf_processor:extract_equations:231 - 📊 206 équations extraites
+2026-05-23 05:17:44.807 | INFO     | converter:__init__:17 - 🚀 PublicationConverter initialized
+2026-05-23 05:17:44.807 | WARNING  | pdf_processor:_fallback_extraction:64 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 05:17:45.607 | INFO     | pdf_processor:extract_equations:231 - 📊 206 équations extraites
+2026-05-23 05:17:45.607 | WARNING  | pdf_processor:refine_equations:244 - ⚠️ eq_063 suspect: Braces mismatch: 1 open, 0 close
+2026-05-23 05:17:45.609 | WARNING  | pdf_processor:refine_equations:244 - ⚠️ eq_068 suspect: Braces mismatch: 4 open, 0 close
+2026-05-23 05:17:45.609 | WARNING  | pdf_processor:refine_equations:244 - ⚠️ eq_069 suspect: Closing brace before opening
+2026-05-23 05:17:45.609 | WARNING  | pdf_processor:refine_equations:244 - ⚠️ eq_070 suspect: Braces mismatch: 2 open, 4 close
+2026-05-23 05:17:45.609 | WARNING  | pdf_processor:refine_equations:244 - ⚠️ eq_141 suspect: Braces mismatch: 1 open, 0 close
+2026-05-23 05:17:45.754 | INFO     | converter:_save_markdown:100 - 📋 Rapport sauvegardé: Publication_convertie\validation_report.md
+2026-05-23 05:17:45.754 | INFO     | converter:_save_metadata:123 - 📊 Métadonnées sauvegardées: Publication_convertie\metadata.json
+2026-05-23 05:18:41.818 | WARNING  | pdf_processor:_fallback_extraction:64 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 05:18:42.650 | INFO     | pdf_processor:extract_equations:243 - 📊 89 équations extraites
+2026-05-23 05:18:49.650 | INFO     | converter:__init__:17 - 🚀 PublicationConverter initialized
+2026-05-23 05:18:49.650 | WARNING  | pdf_processor:_fallback_extraction:64 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 05:18:50.469 | INFO     | pdf_processor:extract_equations:243 - 📊 89 équations extraites
+2026-05-23 05:18:50.469 | WARNING  | pdf_processor:refine_equations:256 - ⚠️ eq_024 suspect: Braces mismatch: 1 open, 0 close
+2026-05-23 05:18:50.469 | WARNING  | pdf_processor:refine_equations:256 - ⚠️ eq_032 suspect: Braces mismatch: 1 open, 0 close
+2026-05-23 05:18:50.469 | WARNING  | pdf_processor:refine_equations:256 - ⚠️ eq_035 suspect: Braces mismatch: 8 open, 7 close
+2026-05-23 05:18:50.469 | WARNING  | pdf_processor:refine_equations:256 - ⚠️ eq_057 suspect: Braces mismatch: 1 open, 0 close
+2026-05-23 05:18:50.534 | INFO     | converter:_save_markdown:100 - 📋 Rapport sauvegardé: Publication_convertie\validation_report.md
+2026-05-23 05:18:50.534 | INFO     | converter:_save_metadata:123 - 📊 Métadonnées sauvegardées: Publication_convertie\metadata.json
+2026-05-23 05:21:59.930 | INFO     | converter:__init__:17 - 🚀 PublicationConverter initialized
+2026-05-23 05:21:59.931 | WARNING  | pdf_processor:_fallback_extraction:62 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 05:22:00.770 | INFO     | pdf_processor:extract_equations:314 - 📊 81 équations extraites
+2026-05-23 05:22:00.771 | WARNING  | pdf_processor:refine_equations:327 - ⚠️ eq_021 suspect: Braces mismatch: 1 open, 0 close
+2026-05-23 05:22:00.771 | WARNING  | pdf_processor:refine_equations:327 - ⚠️ eq_030 suspect: Braces mismatch: 1 open, 0 close
+2026-05-23 05:22:00.772 | WARNING  | pdf_processor:refine_equations:327 - ⚠️ eq_033 suspect: Braces mismatch: 8 open, 7 close
+2026-05-23 05:22:00.772 | WARNING  | pdf_processor:refine_equations:327 - ⚠️ eq_052 suspect: Braces mismatch: 1 open, 0 close
+2026-05-23 05:22:00.972 | INFO     | converter:_save_markdown:126 - 📋 Rapport sauvegardé: Publication_convertie\validation_report.md
+2026-05-23 05:22:00.972 | INFO     | converter:_save_metadata:150 - 📊 Métadonnées sauvegardées: Publication_convertie\metadata.json
+2026-05-23 05:27:15.559 | INFO     | converter:__init__:18 - 🚀 PublicationConverter initialized
+2026-05-23 05:27:15.564 | INFO     | converter:_save_equation_documents:268 - 🧾 Documents de présentation sauvegardés: Publication_convertie\equations_presented.md / Publication_convertie\equations_presented.html
+2026-05-23 05:27:40.072 | INFO     | converter:__init__:18 - 🚀 PublicationConverter initialized
+2026-05-23 05:27:40.072 | INFO     | converter:_save_equation_documents:269 - 🧾 Documents de présentation sauvegardés: Publication_convertie\equations_presented.md / Publication_convertie\equations_presented.html
+2026-05-23 05:27:40.072 | INFO     | converter:_save_metadata:295 - 📊 Métadonnées sauvegardées: Publication_convertie\metadata.json
+2026-05-23 05:37:41.558 | INFO     | converter:__init__:18 - 🚀 PublicationConverter initialized
+2026-05-23 05:37:41.558 | WARNING  | pdf_processor:_fallback_extraction:62 - ⚠️ Utilisation fallback (extraction basique)
+2026-05-23 05:37:43.469 | INFO     | pdf_processor:extract_equations:314 - 📊 81 équations extraites

@@ -1,0 +1,20 @@
+{
+  "id": "eq_049",
+  "latex": "𝑁𝑝=∑(𝑆𝑚𝑗+𝐸𝑚𝑗+𝐼𝑚𝑗+𝐴𝑚𝑗+𝑅𝑚𝑗+𝑆𝑓𝑗+𝐸𝑓𝑗+𝐼𝑓𝑗+𝐴𝑓𝑗+𝑅𝑓𝑗)𝑘\n𝑗=1,",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 18,
+  "context": "The model defines the total human population as  582 𝑁𝑝=∑(𝑆𝑚𝑗+𝐸𝑚𝑗+𝐼𝑚𝑗+𝐴𝑚𝑗+𝑅𝑚𝑗+𝑆𝑓𝑗+𝐸𝑓𝑗+𝐼𝑓𝑗+𝐴𝑓𝑗+𝑅𝑓𝑗)𝑘 𝑗=1, 583",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

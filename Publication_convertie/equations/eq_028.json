@@ -1,0 +1,20 @@
+{
+  "id": "eq_028",
+  "latex": "ℋ=𝐿+∑𝜂𝑖𝑓𝑖10𝑘+5\n𝑖=1,                                                     (6)",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 9,
+  "context": "9 / 35 ℋ=𝐿+∑𝜂𝑖𝑓𝑖10𝑘+5 𝑖=1,                                                     (6) 257",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

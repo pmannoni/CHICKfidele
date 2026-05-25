@@ -1,0 +1,20 @@
+{
+  "id": "eq_068",
+  "latex": "ℋ(𝑥,𝜆,𝑢,𝑡)=𝐿(𝑥(𝑡),𝑢(𝑡),𝑡)+𝜆𝑇(𝑡)×𝑓(𝑥(𝑡),𝑢(𝑡),𝑡),",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 24,
+  "context": "multipliers), and the integrand of the objective function as follows:  686 ℋ(𝑥,𝜆,𝑢,𝑡)=𝐿(𝑥(𝑡),𝑢(𝑡),𝑡)+𝜆𝑇(𝑡)×𝑓(𝑥(𝑡),𝑢(𝑡),𝑡), 687 where  𝑥(𝑡) represents the vector of state variables,  𝑢(𝑡) denotes the control variables to ",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

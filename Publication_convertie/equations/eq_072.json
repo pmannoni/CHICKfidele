@@ -1,0 +1,20 @@
+{
+  "id": "eq_072",
+  "latex": "𝜆 Rate of mosquito emergence  Day-",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 34,
+  "context": "27) 𝜆 Rate of mosquito emergence  Day- 1 0.0902  0.0691 -",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

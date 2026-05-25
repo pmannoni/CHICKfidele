@@ -1,0 +1,20 @@
+{
+  "id": "eq_029",
+  "latex": "Theorem 1  Let 𝑆𝑚𝑗∗,𝐸𝑚𝑗∗,𝐼𝑚𝑗∗,𝐴𝑚𝑗∗,𝑅𝑚𝑗∗,𝑆𝑓𝑗∗,𝐸𝑓𝑗∗,𝐼𝑓𝑗∗,𝐴𝑓𝑗∗,𝑅𝑓𝑗∗,𝑆𝑎∗,𝐼𝑎∗,𝑆𝑣∗,𝐸𝑣∗,𝐼𝑣∗,(𝑗=1,…,𝑘)",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 9,
+  "context": "following  Theorem  1 can be obtained .  260 Theorem 1  Let 𝑆𝑚𝑗∗,𝐸𝑚𝑗∗,𝐼𝑚𝑗∗,𝐴𝑚𝑗∗,𝑅𝑚𝑗∗,𝑆𝑓𝑗∗,𝐸𝑓𝑗∗,𝐼𝑓𝑗∗,𝐴𝑓𝑗∗,𝑅𝑓𝑗∗,𝑆𝑎∗,𝐼𝑎∗,𝑆𝑣∗,𝐸𝑣∗,𝐼𝑣∗,(𝑗=1,…,𝑘) 261 represent the state solutions associated with the optimal control measures  ",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

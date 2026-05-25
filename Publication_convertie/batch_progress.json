@@ -1,0 +1,32 @@
+{
+  "pdf": "C:\\Users\\pmanonni\\PycharmProjects\\CHICKfidele\\src\\Publi2.pdf",
+  "total_pages": 35,
+  "chunk_size": 5,
+  "chunks": [
+    {
+      "pages": "1-5",
+      "returncode": 0,
+      "stdout_tail": "INFO: likely hallucinated title at the end of the page: ## 2 **Main Text\n",
+      "stderr_tail": "505: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\\actions-runner\\_work\\pytorch\\pytorch\\aten\\src\\ATen\\native\\TensorShape.cpp:4384.)\n  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]\n\n  0%|          | 0/5 [00:00<?, ?it/s]C:\\Users\\pmanonni\\PycharmProjects\\CHICKfidele\\.venv\\Lib\\site-packages\\nougat\\model.py:437: UserWarning: var(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at C:\\actions-runner\\_work\\pytorch\\pytorch\\aten\\src\\ATen\\native\\ReduceOps.cpp:1879.)\n  return torch.var(self.values, 1) / self.values.shape[1]\nINFO:root:Processing file C:\\Users\\pmanonni\\PycharmProjects\\CHICKfidele\\src\\Publi2.pdf with 5 pages\n\n 20%|##        | 1/5 [00:44<02:59, 44.77s/it]\n 40%|####      | 2/5 [01:54<02:58, 59.63s/it]\n 60%|######    | 3/5 [02:23<01:30, 45.29s/it]\n 80%|########  | 4/5 [02:30<00:30, 30.46s/it]WARNING:root:Found repetitions in sample 0\nWARNING:root:Skipping page 5 due to repetitions.\n\n100%|##########| 5/5 [02:45<00:00, 24.75s/it]\n100%|##########| 5/5 [02:45<00:00, 33.07s/it]\n",
+      "status": "ok",
+      "mmd": "C:\\Users\\pmanonni\\PycharmProjects\\CHICKfidele\\Publication_convertie\\chunks\\pages_01_05\\Publi2.mmd"
+    },
+    {
+      "pages": "6-10",
+      "returncode": 0,
+      "stdout_tail": "",
+      "stderr_tail": "dele\\.venv\\Lib\\site-packages\\torch\\functional.py:505: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\\actions-runner\\_work\\pytorch\\pytorch\\aten\\src\\ATen\\native\\TensorShape.cpp:4384.)\n  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]\n\n  0%|          | 0/5 [00:00<?, ?it/s]C:\\Users\\pmanonni\\PycharmProjects\\CHICKfidele\\.venv\\Lib\\site-packages\\nougat\\model.py:437: UserWarning: var(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at C:\\actions-runner\\_work\\pytorch\\pytorch\\aten\\src\\ATen\\native\\ReduceOps.cpp:1879.)\n  return torch.var(self.values, 1) / self.values.shape[1]\nWARNING:root:Found repetitions in sample 0\nINFO:root:Processing file C:\\Users\\pmanonni\\PycharmProjects\\CHICKfidele\\src\\Publi2.pdf with 5 pages\n\n 20%|##        | 1/5 [00:07<00:28,  7.16s/it]\n 40%|####      | 2/5 [00:37<01:02, 20.91s/it]\n 60%|######    | 3/5 [01:22<01:03, 31.76s/it]\n 80%|########  | 4/5 [01:40<00:26, 26.31s/it]\n100%|##########| 5/5 [02:19<00:00, 31.09s/it]\n100%|##########| 5/5 [02:19<00:00, 27.97s/it]\n",
+      "status": "ok",
+      "mmd": "C:\\Users\\pmanonni\\PycharmProjects\\CHICKfidele\\Publication_convertie\\chunks\\pages_06_10\\Publi2.mmd"
+    },
+    {
+      "pages": "11-15",
+      "returncode": 0,
+      "stdout_tail": "",
+      "stderr_tail": "505: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\\actions-runner\\_work\\pytorch\\pytorch\\aten\\src\\ATen\\native\\TensorShape.cpp:4384.)\n  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]\n\n  0%|          | 0/5 [00:00<?, ?it/s]C:\\Users\\pmanonni\\PycharmProjects\\CHICKfidele\\.venv\\Lib\\site-packages\\nougat\\model.py:437: UserWarning: var(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at C:\\actions-runner\\_work\\pytorch\\pytorch\\aten\\src\\ATen\\native\\ReduceOps.cpp:1879.)\n  return torch.var(self.values, 1) / self.values.shape[1]\nINFO:root:Processing file C:\\Users\\pmanonni\\PycharmProjects\\CHICKfidele\\src\\Publi2.pdf with 5 pages\n\n 20%|##        | 1/5 [00:30<02:01, 30.43s/it]\n 40%|####      | 2/5 [01:06<01:41, 33.92s/it]\n 60%|######    | 3/5 [01:25<00:53, 26.97s/it]\n 80%|########  | 4/5 [01:42<00:22, 22.90s/it]WARNING:root:Found repetitions in sample 0\nWARNING:root:Skipping page 5 due to repetitions.\n\n100%|##########| 5/5 [02:12<00:00, 25.47s/it]\n100%|##########| 5/5 [02:12<00:00, 26.43s/it]\n",
+      "status": "ok",
+      "mmd": "C:\\Users\\pmanonni\\PycharmProjects\\CHICKfidele\\Publication_convertie\\chunks\\pages_11_15\\Publi2.mmd"
+    }
+  ],
+  "status": "running"
+}

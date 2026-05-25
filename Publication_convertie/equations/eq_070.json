@@ -1,0 +1,20 @@
+{
+  "id": "eq_070",
+  "latex": "𝑥̇=𝑓(𝑥,𝑢,𝑡),\nis integrated forw ard in time with the initial condition  𝑥(0)=𝑥0, while the costate equation\n𝜆̇=−∂ℋ\n∂𝑥,",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 24,
+  "context": "the state equations and the costate equations. The state equation  699 𝑥̇=𝑓(𝑥,𝑢,𝑡), 700 is integrated forw ard in time with the initial condition  𝑥(0)=𝑥0, while the costate equation  701",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

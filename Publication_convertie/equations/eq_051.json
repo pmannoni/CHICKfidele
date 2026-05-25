@@ -1,0 +1,20 @@
+{
+  "id": "eq_051",
+  "latex": "𝑐≜𝑐(𝑡)=𝑐𝑜𝑠(𝑡−𝜏\n𝑇).",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 18,
+  "context": "interpretation.  Furthermore,  the seasonal effect function is defined a s: 587 𝑐≜𝑐(𝑡)=𝑐𝑜𝑠(𝑡−𝜏 𝑇). 588",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

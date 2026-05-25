@@ -1,0 +1,20 @@
+{
+  "id": "eq_025",
+  "latex": "𝐺(𝑢∗)=𝑚𝑖𝑛Θ𝐺(𝑢(𝑡)),                                                     (4)\nwhere, Θ={𝑢(𝑡)∈𝐿3(0,𝑇)|𝑢𝑚𝑖𝑛≤𝑢1(𝑡),𝑢2(𝑡),𝑢3(𝑡)≤𝑢𝑚𝑎𝑥,𝑡∈(0,𝑇)} is the control set , T",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 8,
+  "context": "maximum principle, such that  247 𝐺(𝑢∗)=𝑚𝑖𝑛Θ𝐺(𝑢(𝑡)),                                                     (4) 248 where, Θ={𝑢(𝑡)∈𝐿3(0,𝑇)|𝑢𝑚𝑖𝑛≤𝑢1(𝑡),𝑢2(𝑡),𝑢3(𝑡)≤𝑢𝑚𝑎𝑥,𝑡∈(0,𝑇)} is the control set , T 249",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

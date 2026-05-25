@@ -1,0 +1,20 @@
+{
+  "id": "eq_026",
+  "latex": "interval (0,𝑇).",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 8,
+  "context": "is represented the final step size , and 𝐿3(0,𝑇) is the set of integrable functions defined on the 250 interval (0,𝑇).  251 To begin solving the optimal problem, we focus ed on the Lagrangian and Hamiltonian for 252",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

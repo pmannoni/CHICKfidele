@@ -1,0 +1,20 @@
+{
+  "id": "eq_031",
+  "latex": "𝜂𝑖(𝑇)=0,",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 9,
+  "context": "with boundary conditions or transversality conditions  266 𝜂𝑖(𝑇)=0, 267 where,  268",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

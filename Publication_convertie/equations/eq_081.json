@@ -1,0 +1,20 @@
+{
+  "id": "eq_081",
+  "latex": "1/7 - Ref. (36)",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 35,
+  "context": "individuals  Day- 1 1/7 - Ref. (36)",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

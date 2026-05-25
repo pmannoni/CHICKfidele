@@ -1,0 +1,20 @@
+{
+  "id": "eq_038",
+  "latex": "transmission control 𝒖𝟏 Human -to-mosquito\ntransmission control 𝒖𝟐 Mosquito population\nsuppression 𝒖𝟑",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 12,
+  "context": "Strategy  Mosquito -to-human transmission control 𝒖𝟏 Human -to-mosquito transmission control 𝒖𝟐 Mosquito population",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

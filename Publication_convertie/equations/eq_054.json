@@ -1,0 +1,20 @@
+{
+  "id": "eq_054",
+  "latex": "𝛽𝑝𝑣 Effective transmission rate from",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 21,
+  "context": "mosquitoes to human s 1 - 0-1 Fitting 𝛽𝑝𝑣 Effective transmission rate from human s to mosquito  1 - 0-1 Fitting",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

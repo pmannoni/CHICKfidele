@@ -1,0 +1,20 @@
+{
+  "id": "eq_016",
+  "latex": "𝑉1=𝐼2𝑘⊗(𝑞𝜔′+(1−𝑞)𝜔00\n−(1−𝑞)𝜔𝛾0\n−𝑞𝜔′0𝛾′), 𝑉2=((𝑑+𝜛)0\n− 𝜛𝑑).",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 6,
+  "context": "6 / 35 𝑉1=𝐼2𝑘⊗(𝑞𝜔′+(1−𝑞)𝜔00 −(1−𝑞)𝜔𝛾0",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "eq_039",
+  "latex": "pathway ( ℛ𝑒𝑓𝑓(𝑣𝑝)).",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 13,
+  "context": "(ℛ𝑒𝑓𝑓(𝑝𝑣)) was consistentl y and significantly higher than that for the \"mosquito -to-human\" 378 pathway ( ℛ𝑒𝑓𝑓(𝑣𝑝)). 379 Theoretically, setting any single control parameter to 1 (i.e., implementing extreme -intensity 38",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

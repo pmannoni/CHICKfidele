@@ -1,0 +1,60 @@
+## Title
+
+Transmission and strategy analysis of Chikungunya among demographic groups: Proposing an optimal control framework based on a vector-borne model
+
+## Authors
+
+* [1] Jiahui Li\({}^{1\dagger}\), Zeyu Zhao\({}^{1}\)\({}^{2}\)\({}^{3\dagger}\), Jia Rui\({}^{2}\)\({}^{4}\)\({}^{5\dagger}\), Jianguo Zhao\({}^{1}\), Qixuan Luo\({}^{1}\), Kangguo Li\({}^{1}\), Wentao Song\({}^{6}\), Sandra Perez\({}^{7}\)\({}^{8}\), Roger Frutos\({}^{1}\)\({}^{2}\)\({}^{9}\)\({}^{10}\), Yanhua Su\({}^{1}\), Tianxin Xiang\({}^{6*}\), Qiuping Chen\({}^{1}\)\({}^{2*}\) & Tianmu Chen\({}^{1*}\)
+
+## 1 **Affiliations**
+
+\({}^{1}\) State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, National Innovation Platform for Industry-Education Integration in Vaccine Research, School of Public Health, Xiamen University, 4221-117 South Xiang'an Road, Xiang'an District, Xiamen City, Fujian Province 361102, China;
+
+\({}^{2}\) CIRAD, URM 17, Intertryp, Montpellier, France;
+
+\({}^{3}\) WorldPop, School of Geography and Environmental Science, University of Southampton, Southampton, UK;
+
+\({}^{4}\) Department of Epidemiology and Health Statistics, Xiangya School of Public Health, Central South;
+
+\({}^{5}\) Aix-Marseille University, IHU Mediterranee-Infection, Marseille, France;
+
+\({}^{6}\) Jiangxi Provincial Key Laboratory of Prevention and Treatment of Infectious Diseases, Jiangxi Medical Center for Critical Public Health Events, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China;
+
+\({}^{7}\) University Nice Cote d'Azur, UMR 7300 ESPACE, France;
+
+\({}^{8}\) Universitas AIRLANGGA (UNAIR), Department of Epidemiology, Biostatistics, Population Studies and Health Promotion, Faculty of Public Health, Indonesia;
+
+\({}^{9}\) Department of Pathology, Faculty of Medicine-Ramathibodi Hospital, Mahidol University, Bangkok, Thailand;
+
+\({}^{10}\) Department of Health, Faculty of Vocational Studies, Universitats Airlangga, Surabaya, Indonesia;
+
+\({}^{1}\) These authors contributed equally: Jiahui Li; Zeyu Zhao; Jia Rui.
+
+\({}^{3}\)\({}^{*}\) Correspondence: Tianmu Chen, _chentianmu@xmu.edu.cn_; Qiuping Chen,
+
+\({}^{3}\) chenqp241@xmu.edu.cn_; Tianxin Xiang, _ndvfv02258@ncu.edu.cn_.
+* [52]**Introduction**
+* [53] Chikungunya fever (CHIK) is an acute infectious disease caused by the chikungunya virus (CHIKV) and transmitted through the bites of _Aedes_ mosquitoes, primarily _Aedes aegypti_ and _Aedes albopictus [1; 2; 3]_. The disease has an incubation period typically ranging from 3 to 7 days. The general population is susceptible to CHIKV, and infection is thought to confer long-lasting immunity. Sources of transmission include acute-phase patients, asymptomatic individuals, and virus-carrying mosquitoes, with most patients remaining contagious within the first week symptom onset [3]. In 2025, a local clustered outbreak of CHIK, triggered by imported cases, occurred again in Foshan City, Guangdong Province, representing the largest epidemic event of its kind recorded in China to date. In the early stage of the outbreak, the local government responded promptly by issuing "A Letter to All Citizens" on July 18, calling for public participation in mosquito prevention and control activities. This announcement marked the official transition from routine prevention and control measures to an emergency response state, initiating a comprehensive containment phase.
+* [54] By the end of 2024, more than 110 countries had reported local or imported cases of CHIK. In the first seven months of 2025 alone, over 240,000 cases and 90 deaths were recorded globally [4]. Modeling studies project a long-term global average annual infection risk of 0.012 (95% UI: 0.007-0.019), corresponding to approximately 14.4 million (95% UI: 11.0-17.8 million) annual infections worldwide [5], underscoring both the persistent transmission pressure and the urgency of control efforts. As a region with extensive distribution of _Aedes albopictus_ and prolonged mosquito activity seasons, China possesses natural conditions conducive to rapid virus spread, facing a long-term potential risk of "imported cases triggering local transmission." Since the first imported case from Sri Lanka was detected in 2008 [6], a total of 61 CHIK public health emergencies were reported nationwide from 2010 to 2019, 56 of which involved single imported cases [7]. However, local clustered outbreaks--such as those in Dongguan, Guangdong in 2010 [8] and Ruili, Yunnan in 2019 [9]--highlight that the risk of indigenous transmission cannot be overlooked.
+* [56] Mathematical models play a crucial role in elucidating the transmission dynamics of vector-borne diseases and guiding precision control strategies. During the first CHIK outbreak in Guangdong Province in 2010, simulation studies based on ordinary differential equations demonstrated that comprehensive interventions focusing on mosquito control were significantly more effective than strategies relying solely on human-to-mosquito transmission control [10]. In the early stage of the 2025 outbreak in Foshan, Guangdong, which was triggered by an imported case and led to local transmission, Zhao et al. [11] employed mathematical modeling to estimate the basic reproduction number as 7.28, indicating extremely high transmission potential. Further model-based dissection of the transmission chain revealed that the "human-to-mosquito" pathway contributed substantially more than the "mosquito-to-human" pathway, serving as the primary driver of the outbreak. Among different types of infected individuals, symptomatic cases played a particularly prominent role in transmission. A cohort study on CHIK outbreaks in Europe indicated that the 45-64 age group faces the highest infection risk, with female cases consistently outnumbering males [12]. This gender disparity may be linked to differences in social activities, exposure opportunities, and immune responses between sexes.
+* [57] Age- and sex-structured dynamic models have been widely applied in animal population studies [13; 14; 15], with most models utilizing partial differential equations to characterize population structure [15; 16]. In the field of vector-borne diseases, such structured models are also progressively developing. Forouzannia et al. [18] developed an age-structured deterministic model to evaluate the impact of antimalarial drugs on transmission dynamics. Their results indicated that, in the absence of drug-induced resistance, the model exhibited competitive exclusion--where _Plasmodium_ strains with higher basic reproduction numbers suppressed others,driving them toward extinction. Aimee Uwineza et al. [19] further established a malaria transmission dynamic model incorporating both age and sex structures, highlighting that to control malaria transmission in Rwanda, it is essential to focus on reducing mosquito biting and infection rates. They also emphasized the active participation of women in government-led interventions and strengthening malaria prevention education for children. Recent modeling research on CHIKV in Brazil by Cortes-Azuero et al. [20] also indicates that increasing age and female sex are significant risk factors for symptom occurrence, further underscoring the necessity of incorporating demographic structure into transmission models. However, existing research still shows a deficiency in simultaneously integrating age and sex structures into CHIKV transmission dynamic models. This gap limits the ability to quantify the specific roles of different demographic groups in transmission, thereby constraining the development of targeted control strategies.
+
+To address the gaps in existing research, this study proposes an analytical framework for optimizing prevention and control strategies, building upon prior work. This framework was then validated and subjected to empirical analysis using data from the largest CHIK outbreak recorded in China. We developed a vector-borne transmission dynamic model that incorporates both age and sex structures, dividing the total population into multiple subgroups with distinct epidemiological characteristics. Based on this model framework, we analytically decomposed the basic reproduction number to quantitatively assess the heterogeneous contributions of different sexes, age groups, and infection statuses (symptomatic/asymptomatic) to disease transmission. Furthermore, we introduced optimal control theory to construct a Hamiltonian system with control variables representing mosquito-to-human transmission control, mosquito population suppression, and human-to-mosquito transmission control. By numerically solving this system, we identified the optimal implementation pathways for each intervention under realistic outbreak conditions and comprehensively evaluated the effectiveness of different intervention combinations in controlling epidemic progression.
+
+## Results
+
+### Epidemiological Characteristics
+
+Since the first imported case of CHIK was reported in Foshan City on June 16, 2025, a total of 9,929 confirmed cases had been recorded by September 18. Among these, 5,171 (52.08%) were male and 4,758 (47.92%) were female, indicating a slightly higher proportion of cases among males (Fig. 1d-e). In terms of age distribution, the 15-59 age group was the most affected across both sexes, representing the highest number of infections in each gender subgroup.
+
+Driven by the implementation of control policies, the epidemic progression exhibited distinct phases and clear intervention-response characteristics (Fig. 1a). The first minor peak in daily incidence occurred on July 18, with 405 new cases reported. Following the implementation of containment measures, case numbers were temporarily suppressed. However, after a plateau period reflecting the incubation lag, infections resurged, reaching a peak of 493 new cases on July 28--the highest daily count recorded during the outbreak. Subsequently, the number of new cases declined consistently, indicating that control measures had gradually taken effect and the outbreak had entered a phase of effective containment.
+
+Stratified analysis by phase revealed that during the preparedness phase (June 16-July 18), males accounted for 51.09% of cases. Among all cases in this phase, the 15-59 age group constituted 32.46%, making it the predominant demographic, while individuals aged 60 and above accounted for 11.06%. Females represented 48.91% of cases in this phase, with the 15-59 age group comprising 30.03% of all cases. After transitioning to the containment phase (July 19-September 18), the proportion of male cases slightly increased to 52.39%, with the 15-59 age group remaining the most affected, constituting 32.31% of all cases during this period. Thispattern highlights the consistently higher exposure risk and disease burden shouldered by the 15-59 age group throughout the entire epidemic (Fig. 1b-c).
+
+**Fig. 1 Temporal dynamics and demographic characteristics of the largest recorded CHIK outbreak in China.****(a)** Daily reported cases by containment phase. The timeline is segmented into distinct phases, annotated with black text and arrows, with colors indicating temporal progression. **(b-c)** Age and sex distribution of incident cases during the preparedness phase (b) and containment phase (c). **(d-e)** Daily cases by age group among females (d) and males (e). Colors represent sex (blue: male; orange: female) and age groups (light to dark shades: 0-14, 15-59, and 60+ years, respectively).
+
+**Basic Reproduction Number with Sex-Age Structure**
+
+The disease-free equilibrium (DFE) represented by 
+
+[MISSING_PAGE_FAIL:5]

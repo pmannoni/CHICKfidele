@@ -1,0 +1,20 @@
+{
+  "id": "eq_043",
+  "latex": "(𝑢2=80%, 𝑢3=80%), or ( 𝑢2=90%, 𝑢3=60%) yielded ℛ𝑒𝑓𝑓=0.9737; with u₂ f ixed, combinations",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 16,
+  "context": "achieved ℛ𝑒𝑓𝑓<1 across scenarios: with u₁ fixed, combinations such as ( 𝑢2=60%, 𝑢3=90%), 512 (𝑢2=80%, 𝑢3=80%), or ( 𝑢2=90%, 𝑢3=60%) yielded ℛ𝑒𝑓𝑓=0.9737; with u₂ f ixed, combinations 513 like (u₁=70%, u₃=90%) reduced ℛ𝑒𝑓𝑓",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

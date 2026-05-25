@@ -1,0 +1,20 @@
+{
+  "id": "eq_062",
+  "latex": "𝜔 Transition rate of exposed",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 22,
+  "context": "asymptomatic individuals  1 0.155  0.03-0.28 Ref. (34-35) 𝜔 Transition rate of exposed individuals to the symptomatic",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

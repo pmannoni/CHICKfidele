@@ -1,0 +1,20 @@
+{
+  "id": "eq_024",
+  "latex": "The core task was to determine  the optimal controls for  𝑢∗=(𝑢1∗,𝑢2∗,𝑢3∗) based on the Pontryagin",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 8,
+  "context": "𝐼𝑚𝑗,𝐼𝑓𝑗,(𝑗=1,…,𝑘), respectively , while 𝑝𝑘+1,𝑝𝑘+2, and 𝑝𝑘+3 are the corresponding cost factors.  245 The core task was to determine  the optimal controls for  𝑢∗=(𝑢1∗,𝑢2∗,𝑢3∗) based on the Pontryagin 246 maximum principl",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

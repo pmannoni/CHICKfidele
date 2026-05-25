@@ -1,0 +1,20 @@
+{
+  "id": "eq_050",
+  "latex": "𝑁𝑣=𝑆𝑎+𝐼𝑎+𝑆𝑣+𝐼𝑣+𝑅𝑣=𝑥∙𝑁𝑝.",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 18,
+  "context": "and the total mosquito population as:  584 𝑁𝑣=𝑆𝑎+𝐼𝑎+𝑆𝑣+𝐼𝑣+𝑅𝑣=𝑥∙𝑁𝑝. 585 For simplicity in subsequent computations, 𝑁𝑝is treated as constant based on its demographic 586",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

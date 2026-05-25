@@ -1,0 +1,20 @@
+{
+  "id": "eq_061",
+  "latex": "infectious  Day-1 1/5.5  1/8.2 -1/3 Ref. (30-33)\n𝑞 Proportion of exposed",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 22,
+  "context": "mosquitoes from exposed to infectious  Day-1 1/5.5  1/8.2 -1/3 Ref. (30-33) 𝑞 Proportion of exposed",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

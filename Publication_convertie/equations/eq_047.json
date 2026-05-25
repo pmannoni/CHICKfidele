@@ -1,0 +1,20 @@
+{
+  "id": "eq_047",
+  "latex": "𝜔 to become symp tomatically infectious,\nthen recover at rate 𝛾.",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 18,
+  "context": "probability (1−𝑞), they undergo a latency period of 1 𝜔 to become symp tomatically infectious, 570 then recover at rate 𝛾. 571",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

@@ -1,0 +1,1622 @@
+[
+  {
+    "equation_id": "eq_001",
+    "latex": "𝐸0=(𝑆𝑚10,0,0,0,0,𝑆𝑓10,0,0,0,0,…,𝑆𝑚𝑘0,0,0,0,0,𝑆𝑓𝑘0,0,0,0,0,𝑆𝑎0,0,𝑆𝑣0,0,0)1×(10𝑘+5),\nin which 𝑁𝑝=∑(𝑆𝑚𝑗0+𝑆𝑓𝑗0)𝑘\n𝑗=1  and 𝑁𝑣=𝑆𝑎0+𝑆𝑣0. We calculate d the basic  reproduction",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "5 / 35 𝐸0=(𝑆𝑚10,0,0,0,0,𝑆𝑓10,0,0,0,0,…,𝑆𝑚𝑘0,0,0,0,0,𝑆𝑓𝑘0,0,0,0,0,𝑆𝑎0,0,𝑆𝑣0,0,0)1×(10𝑘+5), 163 in which 𝑁𝑝=∑(𝑆𝑚𝑗0+𝑆𝑓𝑗0)𝑘",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_002",
+    "latex": "ℱ=\n(                 𝛽𝑣𝑝𝐼𝑅𝑅𝑚1𝑆𝑚1𝐼𝑣\n𝑁𝑝𝑖",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "new infection ℱ and the  outflow term 𝒱 are given by  166 ℱ= (                 𝛽𝑣𝑝𝐼𝑅𝑅𝑚1𝑆𝑚1𝐼𝑣",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_003",
+    "latex": "𝛽𝑣𝑝𝐼𝑅𝑅𝑓1𝑆𝑓1𝐼𝑣\n𝑁𝑝",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "0 𝛽𝑣𝑝𝐼𝑅𝑅𝑓1𝑆𝑓1𝐼𝑣 𝑁𝑝",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_004",
+    "latex": "𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑘𝑆𝑚𝑘𝐼𝑣\n𝑁𝑝",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "⋮ 𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑘𝑆𝑚𝑘𝐼𝑣 𝑁𝑝",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_005",
+    "latex": "𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑘𝑆𝑓𝑘𝐼𝑣\n𝑁𝑝",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "0 𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑘𝑆𝑓𝑘𝐼𝑣 𝑁𝑝",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_006",
+    "latex": "𝛽𝑝𝑣𝑆𝑣∑(𝐼𝑚𝑗+𝐼𝑓𝑗+𝐴𝑚𝑗+𝐴𝑓𝑗)𝑘\n𝑗=1\n𝑁𝑝",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "0 𝛽𝑝𝑣𝑆𝑣∑(𝐼𝑚𝑗+𝐼𝑓𝑗+𝐴𝑚𝑗+𝐴𝑓𝑗)𝑘 𝑗=1",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_007",
+    "latex": "(6𝑘+2)×1, and 𝒱=\n(              𝑞𝜔′𝐸𝑚1+(1−𝑞)𝜔𝐸𝑚1\n−(1−𝑞)𝜔𝐸𝑚1+𝛾𝐼𝑚1\n−𝑞𝜔′𝐸𝑚1+𝛾′𝐴𝑚1\n𝑞𝜔′𝐸𝑓1+(1−𝑞)𝜔𝐸𝑓1\n−(1−𝑞)𝜔𝐸𝑓1+𝛾𝐼𝑓1\n−𝑞𝜔′𝐸𝑓1+𝛾′𝐴𝑓1",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "0 ) (6𝑘+2)×1, and 𝒱= (              𝑞𝜔′𝐸𝑚1+(1−𝑞)𝜔𝐸𝑚1",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_008",
+    "latex": "𝑞𝜔′𝐸𝑚𝑘+(1−𝑞)𝜔𝐸𝑚𝑘\n−(1−𝑞)𝜔𝐸𝑚𝑘+𝛾𝐼𝑚𝑘\n−𝑞𝜔′𝐸𝑚𝑘+𝛾′𝐴𝑚𝑘\n𝑞𝜔′𝐸𝑓𝑘+(1−𝑞)𝜔𝐸𝑓𝑘\n−(1−𝑞)𝜔𝐸𝑓𝑘+𝛾𝐼𝑓𝑘\n−𝑞𝜔′𝐸𝑓𝑘+𝛾′𝐴𝑓𝑘\n(𝑑+𝜛)𝐸𝑣\n−𝜆𝐼𝑎− 𝜛𝐸𝑣+𝑑𝐼𝑣)\n(6𝑘+2)×1,",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "⋮ 𝑞𝜔′𝐸𝑚𝑘+(1−𝑞)𝜔𝐸𝑚𝑘 −(1−𝑞)𝜔𝐸𝑚𝑘+𝛾𝐼𝑚𝑘",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_009",
+    "latex": "𝐹(𝐸0)=(06𝑘×6𝑘𝐹1\n𝐹202×2),",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "The Jacobian matrice s of ℱ and 𝒱 at the DFE 𝐸0 are 168 𝐹(𝐸0)=(06𝑘×6𝑘𝐹1 𝐹202×2), 169",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_010",
+    "latex": "𝑉(𝐸0)=(𝑉106𝑘×2\n02×6𝑘𝑉2),",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "and 170 𝑉(𝐸0)=(𝑉106𝑘×2 02×6𝑘𝑉2), 171",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_011",
+    "latex": "𝐹1=\n(              0𝛽𝑣𝑝𝐼𝑅𝑅𝑚1𝑆𝑚10\n𝑁𝑝",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "respectively , of which  172 𝐹1= (              0𝛽𝑣𝑝𝐼𝑅𝑅𝑚1𝑆𝑚10",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_012",
+    "latex": "0𝛽𝑣𝑝𝐼𝑅𝑅𝑓1𝑆𝑓10\n𝑁𝑝",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "0 0 0𝛽𝑣𝑝𝐼𝑅𝑅𝑓1𝑆𝑓10 𝑁𝑝",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_013",
+    "latex": "0𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑘𝑆𝑚𝑘0\n𝑁𝑝",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "⋮ ⋮ 0𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑘𝑆𝑚𝑘0 𝑁𝑝",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_014",
+    "latex": "0𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑘𝑆𝑓𝑘0\n𝑁𝑝",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "0 0 0𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑘𝑆𝑓𝑘0 𝑁𝑝",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_015",
+    "latex": "6𝑘×2, 𝐹2=11×3𝑘⊗(0𝛽𝑝𝑣𝑆𝑣0\n𝑁𝑝𝛽𝑝𝑣𝑆𝑣0\n𝑁𝑝",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 5,
+    "context": "0 0) 6𝑘×2, 𝐹2=11×3𝑘⊗(0𝛽𝑝𝑣𝑆𝑣0 𝑁𝑝𝛽𝑝𝑣𝑆𝑣0",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_016",
+    "latex": "𝑉1=𝐼2𝑘⊗(𝑞𝜔′+(1−𝑞)𝜔00\n−(1−𝑞)𝜔𝛾0\n−𝑞𝜔′0𝛾′), 𝑉2=((𝑑+𝜛)0\n− 𝜛𝑑).",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 6,
+    "context": "6 / 35 𝑉1=𝐼2𝑘⊗(𝑞𝜔′+(1−𝑞)𝜔00 −(1−𝑞)𝜔𝛾0",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_017",
+    "latex": "generation matrix 𝐹𝑉−1(𝐸0). Direct calculation gives\nℛ0=√ℛ0(𝑣𝑝)×ℛ0(𝑝𝑣),",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 6,
+    "context": "Then, the basic reproduction number ℛ0 of model (1) is the spectral radius of the next  175 generation matrix 𝐹𝑉−1(𝐸0). Direct calculation gives  176 ℛ0=√ℛ0(𝑣𝑝)×ℛ0(𝑝𝑣), 177",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_018",
+    "latex": "ℛ0(𝑣𝑝)=∑(𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝑆𝑚𝑗0\n𝑁𝑝(1−𝑞)𝜔)𝑘\n𝑗=1\n[𝑞𝜔′+(1−𝑞)𝜔]𝛾+∑(𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝑆𝑚𝑗0\n𝑁𝑝𝑞𝜔′)𝑘\n𝑗=1\n[𝑞𝜔′+(1−𝑞)𝜔]𝛾′179\n+∑(𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑗𝑆𝑓𝑗0\n𝑁𝑝(1−𝑞)𝜔)𝑘\n𝑗=1\n[𝑞𝜔′+(1−𝑞)𝜔]𝛾+∑(𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑗𝑆𝑓𝑗0\n𝑁𝑝𝑖𝑞𝜔′)𝑘\n𝑗=1\n[𝑞𝜔′+(1−𝑞)𝜔]𝛾′180\n=ℛ0(𝑣𝑝𝐼𝑚)+ℛ0(𝑣𝑝𝐴𝑚)+ℛ0(𝑣𝑝𝐼𝑓)+ℛ0(𝑣𝑝𝐴𝑓),\nℛ0(𝑝𝑣)=𝛽𝑝𝑣𝑆𝑣0\n𝑁𝑝𝜛\n(𝑑+𝜛)𝑑.",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 6,
+    "context": "in which,  178 ℛ0(𝑣𝑝)=∑(𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝑆𝑚𝑗0 𝑁𝑝(1−𝑞)𝜔)𝑘",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_019",
+    "latex": "Time  𝓡𝟎 𝓡𝟎(𝒗𝒑) 𝓡𝟎(𝒑𝒗)",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 7,
+    "context": "number ( 𝓡𝟎) in the largest CHIK outbreak in China  229 Time  𝓡𝟎 𝓡𝟎(𝒗𝒑) 𝓡𝟎(𝒑𝒗) 11 Jun -18 Jul  10.1235  3.6197  28.3132",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_020",
+    "latex": "① Mosquito -to-human transmission control  𝑢1(𝑡) 𝛽𝑣𝑝≜(1−𝑢1(𝑡))𝛽𝑣𝑝\n② Human -to-mosquito transmission control  𝑢2(𝑡) 𝛽𝑝𝑣≜(1−𝑢2(𝑡))𝛽𝑝𝑣\n③ Mosquito population suppression  𝑢3(𝑡) 𝑁𝑣=(1−𝑢3(𝑡))𝑥𝑁𝑝",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 8,
+    "context": "8 / 35 ① Mosquito -to-human transmission control  𝑢1(𝑡) 𝛽𝑣𝑝≜(1−𝑢1(𝑡))𝛽𝑣𝑝 ② Human -to-mosquito transmission control  𝑢2(𝑡) 𝛽𝑝𝑣≜(1−𝑢2(𝑡))𝛽𝑝𝑣",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_021",
+    "latex": "{                          𝑑𝑆𝑚𝑗\n𝑑𝑡=−(1−𝑢1(𝑡))𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝑆𝑚𝑗𝐼𝑣\n𝑁𝑝,\n𝑑𝐸𝑚𝑗\n𝑑𝑡=(1−𝑢1(𝑡))𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝑆𝑚𝑗𝐼𝑣\n𝑁𝑝−𝑞𝜔′𝐸𝑚𝑗−(1−𝑞)𝜔𝐸𝑚𝑗,\n𝑑𝐼𝑚𝑗\n𝑑𝑡=(1−𝑞)𝜔𝐸𝑚𝑗−𝛾𝐼𝑚𝑗,\n𝑑𝐴𝑚𝑗\n𝑑𝑡=𝑞𝜔′𝐸𝑚𝑗−𝛾′𝐴𝑚𝑗,\n𝑑𝑅𝑚𝑗\n𝑑𝑡=𝛾𝐼𝑚𝑗+𝛾′𝐴𝑚𝑗,\n𝑑𝑆𝑓𝑗\n𝑑𝑡=−(1−𝑢1(𝑡))𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑗𝑆𝑓𝑗𝐼𝑣\n𝑁𝑝,\n𝑑𝐸𝑓𝑗\n𝑑𝑡=(1−𝑢1(𝑡))𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑗𝑆𝑓𝑗𝐼𝑣\n𝑁𝑝−𝑞𝜔′𝐸𝑓𝑗−(1−𝑞)𝜔𝐸𝑓𝑗,\n𝑑𝐼𝑓𝑗\n𝑑𝑡=(1−𝑞)𝜔𝐸𝑓𝑗−𝛾𝐼𝑓𝑗,\n𝑑𝐴𝑓𝑗\n𝑑𝑡=𝑞𝜔′𝐸𝑓𝑗−𝛾′𝐴𝑓𝑗,\n𝑑𝑅𝑓𝑖𝑗\n𝑑𝑡=𝛾𝐼𝑓𝑗+𝛾′𝐴𝑓𝑗,\n𝑑𝑆𝑎\n𝑑𝑡=𝑎𝑐[(1−𝑢3(𝑡))𝑥𝑁𝑝−𝑛𝐼𝑎]−𝜆𝑆𝑎,\n𝑑𝐼𝑎\n𝑑𝑡=𝑎𝑐𝑛𝐼𝑎−𝜆𝐼𝑎,\n𝑑𝑆𝑣\n𝑑𝑡=𝜆𝑆𝑎−(1−𝑢2(𝑡))𝛽𝑝𝑣𝑆𝑣∑(𝐼𝑚𝑗+𝐼𝑓𝑗+𝐴𝑚𝑗+𝐴𝑓𝑗)𝑘\n𝑗=1\n𝑁𝑝−𝑑𝑆𝑣,\n𝑑𝐸𝑣\n𝑑𝑡=(1−𝑢2(𝑡))𝛽𝑝𝑣𝑆𝑣∑(𝐼𝑚𝑗+𝐼𝑓𝑗+𝐴𝑚𝑗+𝐴𝑓𝑗)𝑘\n𝑗=1\n𝑁𝑝−(𝑑+𝜛)𝐸𝑣,\n𝑑𝐼𝑣\n𝑑𝑡=𝜆𝐼𝑎+ 𝜛𝐸𝑣−𝑑𝐼𝑣.                           (2)",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 8,
+    "context": "The structure of system by incorporating the above control measures was given below:  239 {                          𝑑𝑆𝑚𝑗 𝑑𝑡=−(1−𝑢1(𝑡))𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝑆𝑚𝑗𝐼𝑣",
+    "validation": {
+      "valid": false,
+      "brace_check": {
+        "passed": false,
+        "message": "Braces mismatch: 1 open, 0 close"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.5
+    }
+  },
+  {
+    "equation_id": "eq_022",
+    "latex": "𝐺(𝑢(𝑡))=∫[∑(𝑝𝑚𝑗𝐼𝑚𝑗+𝑝𝑓𝑗𝐼𝑓𝑗)𝑘\n𝑗=1 +𝑝𝑘+1\n2𝑢12(𝑡)+𝑝𝑘+2\n2𝑢22(𝑡)+𝑝𝑘+3\n2𝑢32(𝑡)]𝑑𝑡𝑇",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 8,
+    "context": "costs required  to control epidemic.  Consequently,  the objective functional was defined as  242 𝐺(𝑢(𝑡))=∫[∑(𝑝𝑚𝑗𝐼𝑚𝑗+𝑝𝑓𝑗𝐼𝑓𝑗)𝑘 𝑗=1 +𝑝𝑘+1",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_023",
+    "latex": "where, t he constants  𝑝𝑚𝑗,𝑝𝑓𝑗,(𝑗=1,…,𝑘) are the weight factors for the symptomatic classes",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 8,
+    "context": "0,     (3) 243 where, t he constants  𝑝𝑚𝑗,𝑝𝑓𝑗,(𝑗=1,…,𝑘) are the weight factors for the symptomatic classes 244 𝐼𝑚𝑗,𝐼𝑓𝑗,(𝑗=1,…,𝑘), respectively , while 𝑝𝑘+1,𝑝𝑘+2, and 𝑝𝑘+3 are the corresponding cost factors.  245",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_024",
+    "latex": "The core task was to determine  the optimal controls for  𝑢∗=(𝑢1∗,𝑢2∗,𝑢3∗) based on the Pontryagin",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 8,
+    "context": "𝐼𝑚𝑗,𝐼𝑓𝑗,(𝑗=1,…,𝑘), respectively , while 𝑝𝑘+1,𝑝𝑘+2, and 𝑝𝑘+3 are the corresponding cost factors.  245 The core task was to determine  the optimal controls for  𝑢∗=(𝑢1∗,𝑢2∗,𝑢3∗) based on the Pontryagin 246 maximum principl",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_025",
+    "latex": "𝐺(𝑢∗)=𝑚𝑖𝑛Θ𝐺(𝑢(𝑡)),                                                     (4)\nwhere, Θ={𝑢(𝑡)∈𝐿3(0,𝑇)|𝑢𝑚𝑖𝑛≤𝑢1(𝑡),𝑢2(𝑡),𝑢3(𝑡)≤𝑢𝑚𝑎𝑥,𝑡∈(0,𝑇)} is the control set , T",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 8,
+    "context": "maximum principle, such that  247 𝐺(𝑢∗)=𝑚𝑖𝑛Θ𝐺(𝑢(𝑡)),                                                     (4) 248 where, Θ={𝑢(𝑡)∈𝐿3(0,𝑇)|𝑢𝑚𝑖𝑛≤𝑢1(𝑡),𝑢2(𝑡),𝑢3(𝑡)≤𝑢𝑚𝑎𝑥,𝑡∈(0,𝑇)} is the control set , T 249",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_026",
+    "latex": "interval (0,𝑇).",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 8,
+    "context": "is represented the final step size , and 𝐿3(0,𝑇) is the set of integrable functions defined on the 250 interval (0,𝑇).  251 To begin solving the optimal problem, we focus ed on the Lagrangian and Hamiltonian for 252",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_027",
+    "latex": "ℒ=∑(𝑝𝑚𝑗𝐼𝑚𝑗+𝑝𝑓𝑗𝐼𝑓𝑗)𝑘\n𝑗=1 +𝑝𝑘+1\n2𝑢12(𝑡)+𝑝𝑘+2\n2𝑢22(𝑡)+𝑝𝑘+3\n2𝑢32(𝑡).               (5)",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 8,
+    "context": "Eqs. (2) to ( 4). The Lagrangian for the optimal problem is defined as follows:  253 ℒ=∑(𝑝𝑚𝑗𝐼𝑚𝑗+𝑝𝑓𝑗𝐼𝑓𝑗)𝑘 𝑗=1 +𝑝𝑘+1",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_028",
+    "latex": "ℋ=𝐿+∑𝜂𝑖𝑓𝑖10𝑘+5\n𝑖=1,                                                     (6)",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 9,
+    "context": "9 / 35 ℋ=𝐿+∑𝜂𝑖𝑓𝑖10𝑘+5 𝑖=1,                                                     (6) 257",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_029",
+    "latex": "Theorem 1  Let 𝑆𝑚𝑗∗,𝐸𝑚𝑗∗,𝐼𝑚𝑗∗,𝐴𝑚𝑗∗,𝑅𝑚𝑗∗,𝑆𝑓𝑗∗,𝐸𝑓𝑗∗,𝐼𝑓𝑗∗,𝐴𝑓𝑗∗,𝑅𝑓𝑗∗,𝑆𝑎∗,𝐼𝑎∗,𝑆𝑣∗,𝐸𝑣∗,𝐼𝑣∗,(𝑗=1,…,𝑘)",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 9,
+    "context": "following  Theorem  1 can be obtained .  260 Theorem 1  Let 𝑆𝑚𝑗∗,𝐸𝑚𝑗∗,𝐼𝑚𝑗∗,𝐴𝑚𝑗∗,𝑅𝑚𝑗∗,𝑆𝑓𝑗∗,𝐸𝑓𝑗∗,𝐼𝑓𝑗∗,𝐴𝑓𝑗∗,𝑅𝑓𝑗∗,𝑆𝑎∗,𝐼𝑎∗,𝑆𝑣∗,𝐸𝑣∗,𝐼𝑣∗,(𝑗=1,…,𝑘) 261 represent the state solutions associated with the optimal control measures  ",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_030",
+    "latex": "1,…,10𝑘+5) that satisfy:\n{                        𝑑𝜂10(𝑗−1)+1\n𝑑𝑡=𝜂10(𝑗−1)+1𝐶1𝑚−𝜂10(𝑗−1)+2𝐶1𝑚,\n𝑑𝜂10(𝑗−1)+2\n𝑑𝑡=𝜂10(𝑗−1)+2[𝑞𝜔′+(1−𝑞)𝜔]−𝜂10(𝑗−1)+3(1−𝑞)𝜔−𝜂10(𝑗−1)+4𝑞𝜔′,\n𝑑𝜂10(𝑗−1)+3\n𝑑𝑡=−𝑝𝑚𝑗+𝑝𝜂10(𝑗−1)+3𝛾−𝜂10(𝑗−1)+5𝛾+𝜂10𝑘+3𝐶2−𝜂10𝑘+4𝐶2,\n𝑑𝜂10(𝑗−1)+4\n𝑑𝑡=𝜂10(𝑗−1)+4𝛾′−𝜂10(𝑗−1)+5𝛾′+𝜂10𝑘+3𝐶2−𝜂10𝑘+4𝐶2,\n𝑑𝜂10(𝑗−1)+5\n𝑑𝑡=0,\n𝑑𝜂10(𝑗−1)+6\n𝑑𝑡=𝜂10(𝑗−1)+6𝐶1𝑓−𝜂10(𝑗−1)+7𝐶1𝑓,\n𝑑𝜂10(𝑗−1)+7\n𝑑𝑡=𝜂10(𝑗−1)+7[𝑞𝜔′+(1−𝑞)𝜔]−𝜂10(𝑗−1)+8(1−𝑞)𝜔−𝜂10(𝑗−1)+9𝑞𝜔′,\n𝑑𝜂10(𝑗−1)+8\n𝑑𝑡=−𝑝𝑓𝑗+𝑝𝜂10(𝑗−1)+8𝛾−𝜂10𝑗𝛾+𝜂10𝑘+3𝐶2−𝜂10𝑘+4𝐶2,\n𝑑𝜂10(𝑗−1)+9\n𝑑𝑡=𝜂10(𝑗−1)+𝛾′−𝜂10𝑗𝛾′+𝜂10𝑘+3𝐶2−𝜂10𝑘+4𝐶2,\n𝑑𝜂10𝑗\n𝑑𝑡=0,\n𝑑𝜂10𝑘+1\n𝑑𝑡=𝜂10𝑘+1𝜆−𝜂10𝑘+3𝜆,\n𝑑𝜂10𝑘+2\n𝑑𝑡=𝜂10𝑘+1𝑎𝑐𝑛−𝜂10𝑘+2(𝑎𝑐𝑛−𝜆)−𝜂10𝑘+5𝜆,\n𝑑𝜂10𝑘+3\n𝑑𝑡=𝜂10𝑘+3[𝐶3+𝑑]−𝜂10𝑘+4𝐶3,\n𝑑𝜂10𝑘+4\n𝑑𝑡=𝜂10𝑘+4(𝑑+𝜛)−𝜂10𝑘+5 𝜛,\n𝑑𝜂10𝑘+5\n𝑑𝑡=∑[(𝜂10(𝑗−1)+1−𝜂10(𝑗−1)+2)𝐶4𝑚+(𝜂10(𝑗−1)+6−𝜂10(𝑗−1)+7)𝐶4𝑓]𝑘\n𝑗=1 +𝜂10𝑘+5𝑑,(7)",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 9,
+    "context": "optimum control system stat ed in ( 2) and (3). Then, we derive the adjoint variables 𝜂𝑖(𝑖= 263 1,…,10𝑘+5) that satisfy:  264 {                        𝑑𝜂10(𝑗−1)+1",
+    "validation": {
+      "valid": false,
+      "brace_check": {
+        "passed": false,
+        "message": "Braces mismatch: 1 open, 0 close"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.5
+    }
+  },
+  {
+    "equation_id": "eq_031",
+    "latex": "𝜂𝑖(𝑇)=0,",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 9,
+    "context": "with boundary conditions or transversality conditions  266 𝜂𝑖(𝑇)=0, 267 where,  268",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_032",
+    "latex": "𝐶1𝑚=(1−𝑢1(𝑡))𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝐼𝑣\n𝑁𝑝,𝐶1𝑓=(1−𝑢1(𝑡))𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑗𝐼𝑣\n𝑁𝑝,\n𝐶2=(1−𝑢2(𝑡))𝛽𝑝𝑣𝑆𝑣\n𝑁𝑝,𝐶3=(1−𝑢2(𝑡))𝛽𝑝𝑣∑(𝐼𝑚𝑗+𝐼𝑓𝑗+𝐴𝑚𝑗+𝐴𝑓𝑗)𝑘\n𝑗=1\n𝑁𝑝,\n𝐶4𝑚=(1−𝑢1(𝑡))𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝑆𝑚𝑗\n𝑁𝑝,𝐶4𝑓=(1−𝑢1(𝑡))𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑗𝑆𝑓𝑗\n𝑁𝑝.",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 9,
+    "context": "where,  268 𝐶1𝑚=(1−𝑢1(𝑡))𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝐼𝑣 𝑁𝑝,𝐶1𝑓=(1−𝑢1(𝑡))𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑗𝐼𝑣",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_033",
+    "latex": "{        𝑢1∗(𝑡)=𝑚𝑎𝑥{𝑚𝑖𝑛{𝑢𝑚𝑖𝑛,∑{[𝜂10(𝑗−1)+2−𝜂10(𝑗−1)+1]𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝑆𝑚𝑗𝐼𝑣\n𝑁𝑝+[𝜂10(𝑗−1)+7−𝜂10(𝑗−1)+6]𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑗𝑆𝑓𝑗𝐼𝑣\n𝑁𝑝}𝑘\n𝑗=1\n𝑝𝑘+1},𝑢𝑚𝑎𝑥},\n𝑢2∗(𝑡)=𝑚𝑎𝑥{𝑚𝑖𝑛{𝑢𝑚𝑖𝑛,(𝜂10𝑘+4−𝜂10𝑘+3)𝛽𝑝𝑣𝑆𝑣∑(𝐼𝑚𝑗+𝐼𝑓𝑗+𝐴𝑚𝑗+𝐴𝑓𝑗)𝑘\n𝑗=1\n𝑁𝑝\n𝑝𝑘+1},𝑢𝑚𝑎𝑥},\n𝑢3∗(𝑡)=𝑚𝑎𝑥{𝑚𝑖𝑛{𝑢𝑚𝑖𝑛,𝜂10𝑘+1𝑎𝑐𝑥𝑁𝑝\n𝑝𝑘+2},𝑢𝑚𝑎𝑥}.273",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 10,
+    "context": "10 / 35 {        𝑢1∗(𝑡)=𝑚𝑎𝑥{𝑚𝑖𝑛{𝑢𝑚𝑖𝑛,∑{[𝜂10(𝑗−1)+2−𝜂10(𝑗−1)+1]𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝑆𝑚𝑗𝐼𝑣 𝑁𝑝+[𝜂10(𝑗−1)+7−𝜂10(𝑗−1)+6]𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑗𝑆𝑓𝑗𝐼𝑣",
+    "validation": {
+      "valid": false,
+      "brace_check": {
+        "passed": false,
+        "message": "Braces mismatch: 8 open, 7 close"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.5
+    }
+  },
+  {
+    "equation_id": "eq_034",
+    "latex": "𝑑𝜂10(𝑗−1)+1\n𝑑𝑡=−𝜕𝐻\n𝜕𝑆𝑚𝑗=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝑆𝑚𝑗10𝑘+5\n𝑖=1,\n𝑑𝜂10(𝑗−1)+2\n𝑑𝑡=−𝜕𝐻\n𝜕𝐸𝑚𝑗=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝐸𝑚𝑗10𝑘+5\n𝑖=1,\n𝑑𝜂10(𝑗−1)+3\n𝑑𝑡=−𝜕𝐻\n𝜕𝐼𝑚𝑗=−𝑝𝑚𝑗−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝐼𝑚𝑗10𝑘+5\n𝑖=1,\n𝑑𝜂10(𝑗−1)+4\n𝑑𝑡=−𝜕𝐻\n𝜕𝐴𝑚𝑗=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝐴𝑚𝑗10𝑘+5\n𝑖=1,\n𝑑𝜂10(𝑗−1)+5\n𝑑𝑡=−𝜕𝐻\n𝜕𝑅𝑚𝑗=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝑅𝑚𝑗10𝑘+5\n𝑖=1,\n𝑑𝜂10(𝑗−1)+6\n𝑑𝑡=−𝜕𝐻\n𝜕𝑆𝑓𝑗=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝑆𝑓𝑗10𝑘+5\n𝑖=1,\n𝑑𝜂10(𝑗−1)+7\n𝑑𝑡=−𝜕𝐻\n𝜕𝐸𝑓𝑗=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝐸𝑓𝑗10𝑘+5\n𝑖=1,\n𝑑𝜂10(𝑗−1)+8\n𝑑𝑡=−𝜕𝐻\n𝜕𝐼𝑓𝑗=−𝑝𝑓𝑗−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝐼𝑓𝑗10𝑘+5\n𝑖=1,\n𝑑𝜂10(𝑗−1)+9\n𝑑𝑡=−𝜕𝐻\n𝜕𝐴𝑓𝑗=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝐴𝑓𝑗10𝑘+5\n𝑖=1,\n𝑑𝜂10𝑗\n𝑑𝑡=−𝜕𝐻\n𝜕𝑅𝑓𝑗=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝑅𝑓𝑗10𝑘+5\n𝑖=1,\n𝑑𝜂10𝑘+1\n𝑑𝑡=−𝜕𝐻\n𝜕𝑆𝑎=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝑆𝑎10𝑘+5\n𝑖=1,\n𝑑𝜂10𝑘+2\n𝑑𝑡=−𝜕𝐻\n𝜕𝐼𝑎=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝐼𝑎10𝑘+5\n𝑖=1,\n𝑑𝜂10𝑘+3\n𝑑𝑡=−𝜕𝐻\n𝜕𝑆𝑣=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝑆𝑣10𝑘+5\n𝑖=1,",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 10,
+    "context": "adjoint equation is obtained as follows : 276 𝑑𝜂10(𝑗−1)+1 𝑑𝑡=−𝜕𝐻",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_035",
+    "latex": "𝑑𝜂10𝑘+4\n𝑑𝑡=−𝜕𝐻\n𝜕𝐸𝑣=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝐸𝑣10𝑘+5\n𝑖=1,\n𝑑𝜂10𝑘+5\n𝑑𝑡=−𝜕𝐻\n𝜕𝐼𝑣=−∑𝜂𝑖𝜕𝑓𝑖\n𝜕𝐼𝑣10𝑘+5\n𝑖=1,",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 11,
+    "context": "11 / 35 𝑑𝜂10𝑘+4 𝑑𝑡=−𝜕𝐻",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_036",
+    "latex": "𝜕𝐻\n𝜕𝑢1=0,\n𝜕𝐻\n𝜕𝑢2=0,\n𝜕𝐻\n𝜕𝑢3=0.",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 11,
+    "context": "the desired problem ( 8), we utilize d the following equations:  293 𝜕𝐻 𝜕𝑢1=0, 294",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_037",
+    "latex": "𝑢1=0.7086 .",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 11,
+    "context": "reached its lowest influence level ( 𝑢1=0.2) during September 1 7, with an average intensity of 318 𝑢1=0.7086 . 319 320",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_038",
+    "latex": "transmission control 𝒖𝟏 Human -to-mosquito\ntransmission control 𝒖𝟐 Mosquito population\nsuppression 𝒖𝟑",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 12,
+    "context": "Strategy  Mosquito -to-human transmission control 𝒖𝟏 Human -to-mosquito transmission control 𝒖𝟐 Mosquito population",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_039",
+    "latex": "pathway ( ℛ𝑒𝑓𝑓(𝑣𝑝)).",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 13,
+    "context": "(ℛ𝑒𝑓𝑓(𝑝𝑣)) was consistentl y and significantly higher than that for the \"mosquito -to-human\" 378 pathway ( ℛ𝑒𝑓𝑓(𝑣𝑝)). 379 Theoretically, setting any single control parameter to 1 (i.e., implementing extreme -intensity 38",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_040",
+    "latex": "0.9, 𝑢3=0.6) all achieved ℛ𝑒𝑓𝑓=0.9737.",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 13,
+    "context": " With 𝑢1 fixed at its actual value, settings of ( 𝑢2=0.6, 𝑢3=0.9), (𝑢2= 0.8, 𝑢3=0.8), or ( 𝑢2= 386 0.9, 𝑢3=0.6) all achieved ℛ𝑒𝑓𝑓=0.9737.  387  With 𝑢2 fixed at its actual value, combinations ( 𝑢1= 0.7, 𝑢3=0.9) or (𝑢1=",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_041",
+    "latex": "reduced ℛ𝑒𝑓𝑓=0.8865.",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 13,
+    "context": " With 𝑢2 fixed at its actual value, combinations ( 𝑢1= 0.7, 𝑢3=0.9) or (𝑢1= 0.9, 𝑢3=0.7) 388 reduced ℛ𝑒𝑓𝑓=0.8865.  389  With 𝑢3 fixed at its actual value, combinations ( 𝑢1= 0.7, 𝑢2=0.9) or (𝑢1= 0.9, 𝑢2=0.7) 390",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_042",
+    "latex": "resulted in ℛ𝑒𝑓𝑓=0.9465.",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 13,
+    "context": " With 𝑢3 fixed at its actual value, combinations ( 𝑢1= 0.7, 𝑢2=0.9) or (𝑢1= 0.9, 𝑢2=0.7) 390 resulted in ℛ𝑒𝑓𝑓=0.9465.  391",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_043",
+    "latex": "(𝑢2=80%, 𝑢3=80%), or ( 𝑢2=90%, 𝑢3=60%) yielded ℛ𝑒𝑓𝑓=0.9737; with u₂ f ixed, combinations",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 16,
+    "context": "achieved ℛ𝑒𝑓𝑓<1 across scenarios: with u₁ fixed, combinations such as ( 𝑢2=60%, 𝑢3=90%), 512 (𝑢2=80%, 𝑢3=80%), or ( 𝑢2=90%, 𝑢3=60%) yielded ℛ𝑒𝑓𝑓=0.9737; with u₂ f ixed, combinations 513 like (u₁=70%, u₃=90%) reduced ℛ𝑒𝑓𝑓",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_044",
+    "latex": " 𝑆𝑚𝑗/𝑆𝑓𝑗: Susceptible males / females in age group  𝑗;\n 𝐸𝑚𝑗/𝐸𝑓𝑗: Exposed males / females in age group  𝑗;",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 17,
+    "context": "following compartments:  547  𝑆𝑚𝑗/𝑆𝑓𝑗: Susceptible males / females in age group  𝑗; 548  𝐸𝑚𝑗/𝐸𝑓𝑗: Exposed males / females in age group  𝑗; 549",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_045",
+    "latex": " 𝑅𝑚𝑗/𝑅𝑓𝑗: Recovered males / females in age group  𝑗.",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 17,
+    "context": " 𝐴𝑚𝑗/𝐴𝑓𝑗: Asymptomatically infectious males / females in age group  𝑗; 551  𝑅𝑚𝑗/𝑅𝑓𝑗: Recovered males / females in age group  𝑗. 552 And, t he vector component comprises five compartments:  553",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_046",
+    "latex": " 𝑆𝑎: Susceptible larval mosquitoes  ;\n 𝐼𝑎: Infected larval mosquitoes  ;\n 𝑆𝑣: Susceptible adult mosquitoes ;\n 𝐸𝑣: Exp osed adult mosquitoes ;\n 𝐼𝑣: Infectious adult mosquitoes .",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 17,
+    "context": "And, t he vector component comprises five compartments:  553  𝑆𝑎: Susceptible larval mosquitoes  ; 554  𝐼𝑎: Infected larval mosquitoes  ; 555",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_047",
+    "latex": "𝜔 to become symp tomatically infectious,\nthen recover at rate 𝛾.",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 18,
+    "context": "probability (1−𝑞), they undergo a latency period of 1 𝜔 to become symp tomatically infectious, 570 then recover at rate 𝛾. 571",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_048",
+    "latex": "𝜛, they",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 18,
+    "context": "humans, entering the expo sed class. After an average extrinsic incubation period of 1 𝜛, they 580 transition to the infectious class, capable of transmitting the virus.  581",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_049",
+    "latex": "𝑁𝑝=∑(𝑆𝑚𝑗+𝐸𝑚𝑗+𝐼𝑚𝑗+𝐴𝑚𝑗+𝑅𝑚𝑗+𝑆𝑓𝑗+𝐸𝑓𝑗+𝐼𝑓𝑗+𝐴𝑓𝑗+𝑅𝑓𝑗)𝑘\n𝑗=1,",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 18,
+    "context": "The model defines the total human population as  582 𝑁𝑝=∑(𝑆𝑚𝑗+𝐸𝑚𝑗+𝐼𝑚𝑗+𝐴𝑚𝑗+𝑅𝑚𝑗+𝑆𝑓𝑗+𝐸𝑓𝑗+𝐼𝑓𝑗+𝐴𝑓𝑗+𝑅𝑓𝑗)𝑘 𝑗=1, 583",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_050",
+    "latex": "𝑁𝑣=𝑆𝑎+𝐼𝑎+𝑆𝑣+𝐼𝑣+𝑅𝑣=𝑥∙𝑁𝑝.",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 18,
+    "context": "and the total mosquito population as:  584 𝑁𝑣=𝑆𝑎+𝐼𝑎+𝑆𝑣+𝐼𝑣+𝑅𝑣=𝑥∙𝑁𝑝. 585 For simplicity in subsequent computations, 𝑁𝑝is treated as constant based on its demographic 586",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_051",
+    "latex": "𝑐≜𝑐(𝑡)=𝑐𝑜𝑠(𝑡−𝜏\n𝑇).",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 18,
+    "context": "interpretation.  Furthermore,  the seasonal effect function is defined a s: 587 𝑐≜𝑐(𝑡)=𝑐𝑜𝑠(𝑡−𝜏 𝑇). 588",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_052",
+    "latex": "{                          𝑑𝑆𝑚𝑗\n𝑑𝑡=−𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝑆𝑚𝑗𝐼𝑣\n𝑁𝑝,\n𝑑𝐸𝑚𝑗\n𝑑𝑡=𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝑆𝑚𝑗𝐼𝑣\n𝑁𝑝−𝑞𝜔′𝐸𝑚𝑗−(1−𝑞)𝜔𝐸𝑚𝑗,\n𝑑𝐼𝑚𝑗\n𝑑𝑡=(1−𝑞)𝜔𝐸𝑚𝑗−𝛾𝐼𝑚𝑗,\n𝑑𝐴𝑚𝑗\n𝑑𝑡=𝑞𝜔′𝐸𝑚𝑗−𝛾′𝐴𝑚𝑗,\n𝑑𝑅𝑚𝑗\n𝑑𝑡=𝛾𝐼𝑚𝑗+𝛾′𝐴𝑚𝑗,\n𝑑𝑆𝑓𝑗\n𝑑𝑡=−𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑗𝑆𝑓𝑗𝐼𝑣\n𝑁𝑝,\n𝑑𝐸𝑓𝑗\n𝑑𝑡=𝛽𝑣𝑝𝐼𝑅𝑅𝑓𝑗𝑆𝑓𝑗𝐼𝑣\n𝑁𝑝−𝑞𝜔′𝐸𝑓𝑗−(1−𝑞)𝜔𝐸𝑓𝑗,\n𝑑𝐼𝑓𝑗\n𝑑𝑡=(1−𝑞)𝜔𝐸𝑓𝑗−𝛾𝐼𝑓𝑗,\n𝑑𝐴𝑓𝑗\n𝑑𝑡=𝑞𝜔′𝐸𝑓𝑗−𝛾′𝐴𝑓𝑗,\n𝑑𝑅𝑓𝑖𝑗\n𝑑𝑡=𝛾𝐼𝑓𝑗+𝛾′𝐴𝑓𝑗,\n𝑑𝑆𝑎\n𝑑𝑡=𝑎𝑐(𝑁𝑣−𝑛𝐼𝑎)−𝜆𝑆𝑎,\n𝑑𝐼𝑎\n𝑑𝑡=𝑎𝑐𝑛𝐼𝑎−𝜆𝐼𝑎,\n𝑑𝑆𝑣\n𝑑𝑡=𝜆𝑆𝑎−𝛽𝑝𝑣𝑆𝑣∑(𝐼𝑚𝑗+𝐼𝑓𝑗+𝐴𝑚𝑗+𝐴𝑓𝑗)𝑘\n𝑗=1\n𝑁𝑝−𝑑𝑆𝑣,\n𝑑𝐸𝑣\n𝑑𝑡=𝛽𝑝𝑣𝑆𝑣∑(𝐼𝑚𝑗+𝐼𝑓𝑗+𝐴𝑚𝑗+𝐴𝑓𝑗)𝑘\n𝑗=1\n𝑁𝑝−(𝑑+𝜛)𝐸𝑣,\n𝑑𝐼𝑣\n𝑑𝑡=𝜆𝐼𝑎+ 𝜛𝐸𝑣−𝑑𝐼𝑣.                                        (1)",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 19,
+    "context": "19 / 35 {                          𝑑𝑆𝑚𝑗 𝑑𝑡=−𝛽𝑣𝑝𝐼𝑅𝑅𝑚𝑗𝑆𝑚𝑗𝐼𝑣",
+    "validation": {
+      "valid": false,
+      "brace_check": {
+        "passed": false,
+        "message": "Braces mismatch: 1 open, 0 close"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.5
+    }
+  },
+  {
+    "equation_id": "eq_053",
+    "latex": "𝛽𝑣𝑝 Effective transmission rate from",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 21,
+    "context": "Parameters  Definition  Unit  Value  Range  Source 𝛽𝑣𝑝 Effective transmission rate from mosquitoes to human s 1 - 0-1 Fitting",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_054",
+    "latex": "𝛽𝑝𝑣 Effective transmission rate from",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 21,
+    "context": "mosquitoes to human s 1 - 0-1 Fitting 𝛽𝑝𝑣 Effective transmission rate from human s to mosquito  1 - 0-1 Fitting",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_055",
+    "latex": "𝑥 The ratio of mosquitoes to",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 21,
+    "context": "human s to mosquito  1 - 0-1 Fitting 𝑥 The ratio of mosquitoes to human s total number  1 - 5-15 Fitting",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_056",
+    "latex": "𝑎 Per capita birth rate of",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 21,
+    "context": "human s total number  1 - 5-15 Fitting 𝑎 Per capita birth rate of mosquitoes  Day-1 0.145  0.02-0.27 Ref. (24-25)",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_057",
+    "latex": "𝜏 Simulation delay in the initial",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 22,
+    "context": "22 / 35 𝜏 Simulation delay in the initial time in the whole season day  Day 30 - Estimation",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_058",
+    "latex": "𝑛 The minimum infection rate for",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 22,
+    "context": "𝑇 Duration of the daily cycle  Day 365 - Estimation 𝑛 The minimum infection rate for vertical transmiss ion 1 0.0181  0.0076 -",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_059",
+    "latex": "𝜆 Rate of mosquito emergence  Day-1 0.0902  0.0691 -",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 22,
+    "context": "0.0286  Ref. (26-27) 𝜆 Rate of mosquito emergence  Day-1 0.0902  0.0691 - 0.1296  Ref. (28)",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_060",
+    "latex": "𝑑 Natural mortality rate of\nmosquitoes  Day-1 1/7.4  1/9.8 -1/4.5  Ref. (29)\n𝜛 Transition rate of infection in",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 22,
+    "context": "0.1296  Ref. (28) 𝑑 Natural mortality rate of mosquitoes  Day-1 1/7.4  1/9.8 -1/4.5  Ref. (29)",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_061",
+    "latex": "infectious  Day-1 1/5.5  1/8.2 -1/3 Ref. (30-33)\n𝑞 Proportion of exposed",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 22,
+    "context": "mosquitoes from exposed to infectious  Day-1 1/5.5  1/8.2 -1/3 Ref. (30-33) 𝑞 Proportion of exposed",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_062",
+    "latex": "𝜔 Transition rate of exposed",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 22,
+    "context": "asymptomatic individuals  1 0.155  0.03-0.28 Ref. (34-35) 𝜔 Transition rate of exposed individuals to the symptomatic",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_063",
+    "latex": "individuals  Day-1 1/4.5  1/7-0.5 Ref. (34-35)\n𝜔′ Transition rate of exposed",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 22,
+    "context": "individuals to the symptomatic individuals  Day-1 1/4.5  1/7-0.5 Ref. (34-35) 𝜔′ Transition rate of exposed",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_064",
+    "latex": "individuals  Day-1 1/4.5  1/7-0.5 Ref. (34-35)\n𝛾 Recovery rate of symptomatic\nindividuals  Day-1 1/7 - Ref. (36)\n𝛾′ Recovery rate of asymptomatic\nindividuals  Day-1 1/7 - Ref. (36)",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 22,
+    "context": "individuals to the asymptomatic individuals  Day-1 1/4.5  1/7-0.5 Ref. (34-35) 𝛾 Recovery rate of symptomatic",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_065",
+    "latex": "𝑝(𝜃|𝑦1:𝑇)∝𝑝(𝑦1:𝑇|𝜃)𝑝(𝜃).",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 22,
+    "context": "likelihood function  𝑝(𝑦1:𝑇|𝜃) and the prior distribution  𝑝(𝜃): 637 𝑝(𝜃|𝑦1:𝑇)∝𝑝(𝑦1:𝑇|𝜃)𝑝(𝜃). 638 Within this framework, the goodness -of-fit of parameters is define d by their probability density 639",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_066",
+    "latex": "𝑝̂(𝑦1:𝑇|𝜃)=∏(𝑁−1∑𝑤𝑡(𝑖)𝑁\n𝑖=1)𝑇\n𝑡=1.",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 23,
+    "context": "unbiased estimate of the marginal likelihood:  651 𝑝̂(𝑦1:𝑇|𝜃)=∏(𝑁−1∑𝑤𝑡(𝑖)𝑁 𝑖=1)𝑇",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_067",
+    "latex": "𝛼=𝑚𝑖𝑛{1,𝑝̂(𝑦1:𝑇|𝜃∗)𝑝(𝜃∗)\n𝑝̂(𝑦1:𝑇|𝜃𝑘−1)𝑝(𝜃𝑘−1),𝑞(𝜃(𝑘−1)|𝜃∗)\n𝑞(𝜃∗|𝜃(𝑘−1))}.",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 23,
+    "context": "update the parameters. The acceptance probability  𝛼 for the candidate point  𝜃∗ is determined by:  656 𝛼=𝑚𝑖𝑛{1,𝑝̂(𝑦1:𝑇|𝜃∗)𝑝(𝜃∗) 𝑝̂(𝑦1:𝑇|𝜃𝑘−1)𝑝(𝜃𝑘−1),𝑞(𝜃(𝑘−1)|𝜃∗)",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_068",
+    "latex": "ℋ(𝑥,𝜆,𝑢,𝑡)=𝐿(𝑥(𝑡),𝑢(𝑡),𝑡)+𝜆𝑇(𝑡)×𝑓(𝑥(𝑡),𝑢(𝑡),𝑡),",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 24,
+    "context": "multipliers), and the integrand of the objective function as follows:  686 ℋ(𝑥,𝜆,𝑢,𝑡)=𝐿(𝑥(𝑡),𝑢(𝑡),𝑡)+𝜆𝑇(𝑡)×𝑓(𝑥(𝑡),𝑢(𝑡),𝑡), 687 where  𝑥(𝑡) represents the vector of state variables,  𝑢(𝑡) denotes the control variables to ",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_069",
+    "latex": "variables  𝑥(𝑡) and costate variables  𝜆(𝑡), yielding  𝑢∗=𝑢∗(𝑥,𝜆) (43-44).",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 24,
+    "context": "an explicit expression for the optimal control exists and can be derived as a function of the state 696 variables  𝑥(𝑡) and costate variables  𝜆(𝑡), yielding  𝑢∗=𝑢∗(𝑥,𝜆) (43-44). 697 Solving the aforementioned optimal co",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_070",
+    "latex": "𝑥̇=𝑓(𝑥,𝑢,𝑡),\nis integrated forw ard in time with the initial condition  𝑥(0)=𝑥0, while the costate equation\n𝜆̇=−∂ℋ\n∂𝑥,",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 24,
+    "context": "the state equations and the costate equations. The state equation  699 𝑥̇=𝑓(𝑥,𝑢,𝑡), 700 is integrated forw ard in time with the initial condition  𝑥(0)=𝑥0, while the costate equation  701",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_071",
+    "latex": "𝑢𝑛𝑒𝑤=(1−𝜔)𝑢𝑜𝑙𝑑+𝜔𝑢𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑡𝑒𝑑 ,",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 25,
+    "context": "To ensure algorit hm stability and convergence, a relaxation update strategy is introduced:  709 𝑢𝑛𝑒𝑤=(1−𝜔)𝑢𝑜𝑙𝑑+𝜔𝑢𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑡𝑒𝑑 , 710 where  𝜔∈(0,1) is the relaxation (or damping) factor. The updated control variables are t",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_072",
+    "latex": "𝜆 Rate of mosquito emergence  Day-",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 34,
+    "context": "27) 𝜆 Rate of mosquito emergence  Day- 1 0.0902  0.0691 -",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_073",
+    "latex": "1/7.4  1/9.8 -\n1/4.5  Ref. (29)\n𝜛 Transition rate of infection in",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 34,
+    "context": "𝑑 Natural mortality rate of mosquitoes  Day- 1 1/7.4  1/9.8 - 1/4.5  Ref. (29)",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_074",
+    "latex": "1/5.5  1/8.2 -1/3 Ref. (30-",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 34,
+    "context": "infectious  Day- 1 1/5.5  1/8.2 -1/3 Ref. (30- 33)",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_075",
+    "latex": "𝑞 Proportion of exposed individuals",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 35,
+    "context": "35 / 35 𝑞 Proportion of exposed individuals progressing to asymptomatic",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_076",
+    "latex": "𝜔 Transition rate of exposed individuals",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 35,
+    "context": "35) 𝜔 Transition rate of exposed individuals to the symptomatic individuals  Day-",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_077",
+    "latex": "1/4.5  1/7-0.5 Ref. (34-",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 35,
+    "context": "to the symptomatic individuals  Day- 1 1/4.5  1/7-0.5 Ref. (34- 35)",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_078",
+    "latex": "𝜔′ Transition rate of exposed individuals",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 35,
+    "context": "35) 𝜔′ Transition rate of exposed individuals to the asymptomatic individuals  Day-",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_079",
+    "latex": "𝛾 Recovery rate of symptomatic",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 35,
+    "context": "35) 𝛾 Recovery rate of symptomatic individuals  Day-",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_080",
+    "latex": "1/7 - Ref. (36)\n𝛾′ Recovery rate of asymptomatic",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 35,
+    "context": "individuals  Day- 1 1/7 - Ref. (36) 𝛾′ Recovery rate of asymptomatic",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "equation_id": "eq_081",
+    "latex": "1/7 - Ref. (36)",
+    "source": "fallback_heuristic",
+    "equation_type": "block",
+    "source_page": 35,
+    "context": "individuals  Day- 1 1/7 - Ref. (36)",
+    "validation": {
+      "valid": true,
+      "brace_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "structure_check": {
+        "passed": true,
+        "message": "OK"
+      },
+      "confidence": 0.95
+    }
+  }
+]

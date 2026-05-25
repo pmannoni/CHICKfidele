@@ -1,0 +1,20 @@
+{
+  "id": "eq_040",
+  "latex": "0.9, 𝑢3=0.6) all achieved ℛ𝑒𝑓𝑓=0.9737.",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 13,
+  "context": " With 𝑢1 fixed at its actual value, settings of ( 𝑢2=0.6, 𝑢3=0.9), (𝑢2= 0.8, 𝑢3=0.8), or ( 𝑢2= 386 0.9, 𝑢3=0.6) all achieved ℛ𝑒𝑓𝑓=0.9737.  387  With 𝑢2 fixed at its actual value, combinations ( 𝑢1= 0.7, 𝑢3=0.9) or (𝑢1=",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

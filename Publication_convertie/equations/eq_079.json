@@ -1,0 +1,20 @@
+{
+  "id": "eq_079",
+  "latex": "𝛾 Recovery rate of symptomatic",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 35,
+  "context": "35) 𝛾 Recovery rate of symptomatic individuals  Day-",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

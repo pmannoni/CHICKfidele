@@ -1,0 +1,20 @@
+{
+  "id": "eq_045",
+  "latex": " 𝑅𝑚𝑗/𝑅𝑓𝑗: Recovered males / females in age group  𝑗.",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 17,
+  "context": " 𝐴𝑚𝑗/𝐴𝑓𝑗: Asymptomatically infectious males / females in age group  𝑗; 551  𝑅𝑚𝑗/𝑅𝑓𝑗: Recovered males / females in age group  𝑗. 552 And, t he vector component comprises five compartments:  553",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

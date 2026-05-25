@@ -1,0 +1,20 @@
+{
+  "id": "eq_019",
+  "latex": "Time  𝓡𝟎 𝓡𝟎(𝒗𝒑) 𝓡𝟎(𝒑𝒗)",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 7,
+  "context": "number ( 𝓡𝟎) in the largest CHIK outbreak in China  229 Time  𝓡𝟎 𝓡𝟎(𝒗𝒑) 𝓡𝟎(𝒑𝒗) 11 Jun -18 Jul  10.1235  3.6197  28.3132",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "eq_044",
+  "latex": " 𝑆𝑚𝑗/𝑆𝑓𝑗: Susceptible males / females in age group  𝑗;\n 𝐸𝑚𝑗/𝐸𝑓𝑗: Exposed males / females in age group  𝑗;",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 17,
+  "context": "following compartments:  547  𝑆𝑚𝑗/𝑆𝑓𝑗: Susceptible males / females in age group  𝑗; 548  𝐸𝑚𝑗/𝐸𝑓𝑗: Exposed males / females in age group  𝑗; 549",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "eq_027",
+  "latex": "ℒ=∑(𝑝𝑚𝑗𝐼𝑚𝑗+𝑝𝑓𝑗𝐼𝑓𝑗)𝑘\n𝑗=1 +𝑝𝑘+1\n2𝑢12(𝑡)+𝑝𝑘+2\n2𝑢22(𝑡)+𝑝𝑘+3\n2𝑢32(𝑡).               (5)",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 8,
+  "context": "Eqs. (2) to ( 4). The Lagrangian for the optimal problem is defined as follows:  253 ℒ=∑(𝑝𝑚𝑗𝐼𝑚𝑗+𝑝𝑓𝑗𝐼𝑓𝑗)𝑘 𝑗=1 +𝑝𝑘+1",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

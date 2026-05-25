@@ -1,0 +1,20 @@
+{
+  "id": "eq_017",
+  "latex": "generation matrix 𝐹𝑉−1(𝐸0). Direct calculation gives\nℛ0=√ℛ0(𝑣𝑝)×ℛ0(𝑝𝑣),",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 6,
+  "context": "Then, the basic reproduction number ℛ0 of model (1) is the spectral radius of the next  175 generation matrix 𝐹𝑉−1(𝐸0). Direct calculation gives  176 ℛ0=√ℛ0(𝑣𝑝)×ℛ0(𝑝𝑣), 177",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

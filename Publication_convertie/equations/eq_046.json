@@ -1,0 +1,20 @@
+{
+  "id": "eq_046",
+  "latex": " 𝑆𝑎: Susceptible larval mosquitoes  ;\n 𝐼𝑎: Infected larval mosquitoes  ;\n 𝑆𝑣: Susceptible adult mosquitoes ;\n 𝐸𝑣: Exp osed adult mosquitoes ;\n 𝐼𝑣: Infectious adult mosquitoes .",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 17,
+  "context": "And, t he vector component comprises five compartments:  553  𝑆𝑎: Susceptible larval mosquitoes  ; 554  𝐼𝑎: Infected larval mosquitoes  ; 555",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

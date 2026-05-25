@@ -1,0 +1,20 @@
+{
+  "id": "eq_058",
+  "latex": "𝑛 The minimum infection rate for",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 22,
+  "context": "𝑇 Duration of the daily cycle  Day 365 - Estimation 𝑛 The minimum infection rate for vertical transmiss ion 1 0.0181  0.0076 -",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}

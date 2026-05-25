@@ -1,0 +1,20 @@
+{
+  "id": "eq_006",
+  "latex": "𝛽𝑝𝑣𝑆𝑣∑(𝐼𝑚𝑗+𝐼𝑓𝑗+𝐴𝑚𝑗+𝐴𝑓𝑗)𝑘\n𝑗=1\n𝑁𝑝",
+  "source": "fallback_heuristic",
+  "type": "block",
+  "source_page": 5,
+  "context": "0 𝛽𝑝𝑣𝑆𝑣∑(𝐼𝑚𝑗+𝐼𝑓𝑗+𝐴𝑚𝑗+𝐴𝑓𝑗)𝑘 𝑗=1",
+  "validation": {
+    "valid": true,
+    "brace_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "structure_check": {
+      "passed": true,
+      "message": "OK"
+    },
+    "confidence": 0.95
+  }
+}
